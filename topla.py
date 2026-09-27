@@ -1,18 +1,27 @@
-# Binance piyasa verisi toplayici - TUM USDT pariteleri - API anahtari gerekmez
+# Binance TR'de listeli coinlerin piyasa verisi - API anahtari gerekmez
+# Coin listesi Binance TR'den, fiyat/mum verisi Binance global'in USDT paritesinden alinir.
 import json, os, shutil, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
+TR_LISTE_URL = "https://www.binance.tr/open/v1/common/symbols"
+ESKI_LISTE_URL = os.environ.get("ESKI_LISTE_URL", "")   # onceki basarili TR listesi (yedek)
 HOSTLAR = [
     "https://data-api.binance.vision",
     "https://api.binance.com",
     "https://api-gcp.binance.com",
     "https://api1.binance.com",
 ]
-KOTE = "USDT"      # tum ...USDT spot pariteleri
-PARALEL = 6        # ayni anda kac istek
+PARALEL = 6
+UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) kripto-veri", "Accept": "application/json"}
 
 calisan_host = None
+
+
+def url_cek(url, timeout=20):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read())
 
 
 def cek(yol, deneme=3):
@@ -22,15 +31,43 @@ def cek(yol, deneme=3):
         sira = ([calisan_host] + [h for h in HOSTLAR if h != calisan_host]) if calisan_host else HOSTLAR
         for h in sira:
             try:
-                req = urllib.request.Request(h + yol, headers={"User-Agent": "kripto-veri"})
-                with urllib.request.urlopen(req, timeout=20) as r:
-                    calisan_host = h
-                    return json.loads(r.read())
+                sonuc = url_cek(h + yol)
+                calisan_host = h
+                return sonuc
             except Exception as e:
                 son_hata = f"{h}{yol[:40]}: {e}"
                 print("HATA", son_hata)
         time.sleep(2)
     raise RuntimeError("Binance'e ulasilamadi -> " + str(son_hata))
+
+
+def tr_coinleri():
+    """Binance TR'deki coinlerin listesi: {'BTC': ['TRY','USDT'], ...}"""
+    try:
+        d = url_cek(TR_LISTE_URL)
+        veri = d.get("data", d) if isinstance(d, dict) else d
+        liste = veri.get("list", []) if isinstance(veri, dict) else veri
+        coinler = {}
+        for s in liste:
+            b, q = s.get("baseAsset"), s.get("quoteAsset")
+            if not b and "_" in s.get("symbol", ""):
+                b, q = s["symbol"].split("_", 1)
+            if b:
+                coinler.setdefault(b.upper(), set()).add((q or "").upper())
+        if len(coinler) < 20:
+            raise ValueError(f"liste cok kisa ({len(coinler)}): {str(d)[:300]}")
+        print("Binance TR listesi alindi:", len(coinler), "coin")
+        return {k: sorted(v) for k, v in coinler.items()}, "canli"
+    except Exception as e:
+        print("Binance TR listesi alinamadi:", e)
+        if ESKI_LISTE_URL:
+            try:
+                eski = url_cek(ESKI_LISTE_URL)
+                print("Onceki TR listesi kullaniliyor:", len(eski["coinler"]), "coin")
+                return eski["coinler"], "onceki (" + eski.get("guncelleme", "?") + ")"
+            except Exception as e2:
+                print("Onceki liste de yok:", e2)
+        raise SystemExit("Binance TR coin listesi alinamadi, onceki liste de yok.")
 
 
 def mum_sade(liste):
@@ -43,20 +80,35 @@ def main():
     shutil.rmtree("data", ignore_errors=True)
     os.makedirs("data/mumlar")
 
-    # 1) Islemde olan tum USDT spot pariteleri
+    tr, tr_kaynak = tr_coinleri()
+    with open("data/tr_coinler.json", "w") as f:
+        json.dump({"guncelleme": simdi, "kaynak": tr_kaynak, "coinler": tr}, f, indent=1)
+
+    # Global'de islemde olan USDT pariteleri
     bilgi = cek("/api/v3/exchangeInfo?symbolStatus=TRADING")
-    semboller = sorted(s["symbol"] for s in bilgi["symbols"]
-                       if s["quoteAsset"] == KOTE and s.get("isSpotTradingAllowed", True))
+    global_usdt = {s["baseAsset"]: s["symbol"] for s in bilgi["symbols"] if s["quoteAsset"] == "USDT"}
+
+    semboller = sorted(global_usdt[b] for b in tr if b in global_usdt)
+    bulunamayan = sorted(b for b in tr if b not in global_usdt and b not in ("USDT", "TRY"))
     kume = set(semboller)
 
-    # 2) 24 saatlik ozet
+    # USD/TL kuru (TL fiyatini hesaplamak icin)
+    try:
+        usdttry = float(cek("/api/v3/ticker/price?symbol=USDTTRY")["price"])
+    except Exception:
+        usdttry = None
+
     coinler = []
     for t in cek("/api/v3/ticker/24hr"):
         if t["symbol"] not in kume:
             continue
+        fiyat = float(t["lastPrice"])
         coinler.append({
             "sembol": t["symbol"],
-            "fiyat": float(t["lastPrice"]),
+            "coin": t["symbol"][:-4],
+            "tr_pariteler": tr.get(t["symbol"][:-4], []),
+            "fiyat": fiyat,
+            "fiyatTL": round(fiyat * usdttry, 8) if usdttry else None,
             "degisim24s": round(float(t["priceChangePercent"]), 2),
             "yuksek24s": float(t["highPrice"]),
             "dusuk24s": float(t["lowPrice"]),
@@ -65,7 +117,6 @@ def main():
         })
     coinler.sort(key=lambda c: c["hacimUSDT"], reverse=True)
 
-    # 3) Her coin icin mumlar
     hatali = []
 
     def mum_yaz(s):
@@ -84,9 +135,13 @@ def main():
         list(ex.map(mum_yaz, semboller))
 
     with open("data/ozet.json", "w") as f:
-        json.dump({"guncelleme": simdi, "kaynak": calisan_host, "coin_sayisi": len(coinler),
+        json.dump({"guncelleme": simdi, "kaynak": calisan_host, "tr_liste": tr_kaynak,
+                   "usdttry": usdttry, "coin_sayisi": len(coinler),
+                   "tr_de_olup_globalde_usdt_paritesi_olmayan": bulunamayan,
                    "mumu_eksik": hatali, "coinler": coinler}, f, ensure_ascii=False, indent=1)
-    print(f"Tamam: {len(coinler)} coin, {len(semboller) - len(hatali)} mum dosyasi, kaynak: {calisan_host}")
+    print(f"Tamam: TR'de {len(tr)} coin, {len(coinler)} tanesinin verisi cekildi, kaynak: {calisan_host}")
+    if bulunamayan:
+        print("Global USDT paritesi olmayanlar:", ", ".join(bulunamayan))
     if len(hatali) > len(semboller) / 2:
         raise SystemExit("Mumlarin yarisindan fazlasi cekilemedi")
 
