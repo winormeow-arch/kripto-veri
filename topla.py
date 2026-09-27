@@ -41,33 +41,54 @@ def cek(yol, deneme=3):
     raise RuntimeError("Binance'e ulasilamadi -> " + str(son_hata))
 
 
+def tr_ayikla(d):
+    """Binance TR sembol cevabindan {'BTC': ['TRY','USDT'], ...} cikarir"""
+    veri = d.get("data", d) if isinstance(d, dict) else d
+    liste = veri.get("list", []) if isinstance(veri, dict) else veri
+    coinler = {}
+    for s in liste or []:
+        if not isinstance(s, dict):
+            continue
+        b, q = s.get("baseAsset"), s.get("quoteAsset")
+        if not b and "_" in s.get("symbol", ""):
+            b, q = s["symbol"].split("_", 1)
+        if b:
+            coinler.setdefault(b.upper(), set()).add((q or "").upper())
+    if len(coinler) < 20:
+        raise ValueError(f"liste cok kisa ({len(coinler)})")
+    return {k: sorted(v) for k, v in coinler.items()}
+
+
 def tr_coinleri():
-    """Binance TR'deki coinlerin listesi: {'BTC': ['TRY','USDT'], ...}"""
+    # 1) Canli: Binance TR (GitHub'in ABD sunucularini genelde engelliyor)
     try:
-        d = url_cek(TR_LISTE_URL)
-        veri = d.get("data", d) if isinstance(d, dict) else d
-        liste = veri.get("list", []) if isinstance(veri, dict) else veri
-        coinler = {}
-        for s in liste:
-            b, q = s.get("baseAsset"), s.get("quoteAsset")
-            if not b and "_" in s.get("symbol", ""):
-                b, q = s["symbol"].split("_", 1)
-            if b:
-                coinler.setdefault(b.upper(), set()).add((q or "").upper())
-        if len(coinler) < 20:
-            raise ValueError(f"liste cok kisa ({len(coinler)}): {str(d)[:300]}")
-        print("Binance TR listesi alindi:", len(coinler), "coin")
-        return {k: sorted(v) for k, v in coinler.items()}, "canli"
+        c = tr_ayikla(url_cek(TR_LISTE_URL))
+        print("Binance TR listesi canli alindi:", len(c), "coin")
+        return c, "canli"
     except Exception as e:
-        print("Binance TR listesi alinamadi:", e)
-        if ESKI_LISTE_URL:
-            try:
-                eski = url_cek(ESKI_LISTE_URL)
-                print("Onceki TR listesi kullaniliyor:", len(eski["coinler"]), "coin")
-                return eski["coinler"], "onceki (" + eski.get("guncelleme", "?") + ")"
-            except Exception as e2:
-                print("Onceki liste de yok:", e2)
-        raise SystemExit("Binance TR coin listesi alinamadi, onceki liste de yok.")
+        print("Binance TR canli liste alinamadi:", e)
+
+    # 2) Depoya senin yukledigin Binance TR sembol dosyasi (ana dizindeki herhangi bir .json)
+    for ad in sorted(os.listdir(".")):
+        if not ad.lower().endswith(".json"):
+            continue
+        try:
+            with open(ad, encoding="utf-8") as f:
+                c = tr_ayikla(json.load(f))
+            print(f"Binance TR listesi depodaki '{ad}' dosyasindan alindi:", len(c), "coin")
+            return c, "dosya: " + ad
+        except Exception as e:
+            print(f"'{ad}' uygun degil:", e)
+
+    # 3) Onceki basarili listeyi kullan
+    if ESKI_LISTE_URL:
+        try:
+            eski = url_cek(ESKI_LISTE_URL)
+            print("Onceki TR listesi kullaniliyor:", len(eski["coinler"]), "coin")
+            return eski["coinler"], "onceki (" + eski.get("guncelleme", "?") + ")"
+        except Exception as e:
+            print("Onceki liste de yok:", e)
+    raise SystemExit("Binance TR coin listesi yok. Telefondan sembol dosyasini indirip depoya yukle.")
 
 
 def mum_sade(liste):
