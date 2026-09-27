@@ -1,6 +1,6 @@
 # Binance TR'de listeli coinlerin piyasa verisi - API anahtari gerekmez
 # Coin listesi Binance TR'den, fiyat/mum verisi Binance global'in USDT paritesinden alinir.
-import json, os, shutil, time, urllib.request
+import gzip, json, os, shutil, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -139,21 +139,29 @@ def main():
     coinler.sort(key=lambda c: c["hacimUSDT"], reverse=True)
 
     hatali = []
+    paket = {}   # uzun gecmis: saatlik 1000 mum (~41 gun) + gunluk 365 mum
 
     def mum_yaz(s):
         try:
-            m15 = cek(f"/api/v3/klines?symbol={s}&interval=15m&limit=96")   # son 24 saat
-            s1 = cek(f"/api/v3/klines?symbol={s}&interval=1h&limit=168")    # son 7 gun
+            m15 = mum_sade(cek(f"/api/v3/klines?symbol={s}&interval=15m&limit=96"))    # son 24 saat
+            s1 = mum_sade(cek(f"/api/v3/klines?symbol={s}&interval=1h&limit=1000"))    # ~41 gun
+            g1 = mum_sade(cek(f"/api/v3/klines?symbol={s}&interval=1d&limit=365"))     # 1 yil
             with open(f"data/mumlar/{s}.json", "w") as f:
                 json.dump({"guncelleme": simdi, "sembol": s,
                            "alan": ["zaman", "acilis", "yuksek", "dusuk", "kapanis", "hacimUSDT"],
-                           "m15": mum_sade(m15), "s1": mum_sade(s1)}, f, separators=(",", ":"))
+                           "m15": m15, "s1": s1[-168:]}, f, separators=(",", ":"))
+            paket[s] = {"s1": s1, "g1": g1}
         except Exception as e:
             hatali.append(s)
             print("MUM HATA", s, e)
 
     with ThreadPoolExecutor(PARALEL) as ex:
         list(ex.map(mum_yaz, semboller))
+
+    with gzip.open("data/gecmis.json.gz", "wt", encoding="utf-8") as f:
+        json.dump({"guncelleme": simdi,
+                   "alan": ["zaman", "acilis", "yuksek", "dusuk", "kapanis", "hacimUSDT"],
+                   "coinler": paket}, f, separators=(",", ":"))
 
     with open("data/ozet.json", "w") as f:
         json.dump({"guncelleme": simdi, "kaynak": calisan_host, "tr_liste": tr_kaynak,
