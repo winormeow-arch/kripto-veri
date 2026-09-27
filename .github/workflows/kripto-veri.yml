@@ -1,0 +1,35 @@
+name: Kripto Veri
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kripto-veri
+  cancel-in-progress: false
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Binance verisini cek
+        run: python3 topla.py
+
+      - name: Veri dalina kaydet (gecmissiz, depo sismesin)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd data
+          git init -q -b veri
+          git config user.name "kripto-bot"
+          git config user.email "kripto-bot@users.noreply.github.com"
+          git add -A
+          git commit -qm "veri $(date -u +%Y-%m-%d_%H:%M)"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" veri
