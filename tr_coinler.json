@@ -1,0 +1,933 @@
+{
+ "guncelleme": "2026-10-03T20:05:37Z",
+ "kaynak": "dosya: tr.json",
+ "coinler": {
+  "0G": [
+   "TRY"
+  ],
+  "1000CAT": [
+   "TRY"
+  ],
+  "1000SATS": [
+   "TRY"
+  ],
+  "1MBABYDOGE": [
+   "TRY"
+  ],
+  "2Z": [
+   "TRY"
+  ],
+  "AAVE": [
+   "TRY"
+  ],
+  "ACE": [
+   "TRY"
+  ],
+  "ACH": [
+   "TRY"
+  ],
+  "ACM": [
+   "TRY"
+  ],
+  "ACT": [
+   "TRY"
+  ],
+  "ADA": [
+   "TRY"
+  ],
+  "AERO": [
+   "TRY"
+  ],
+  "AEVO": [
+   "TRY"
+  ],
+  "AIGENSYN": [
+   "TRY"
+  ],
+  "AIXBT": [
+   "TRY"
+  ],
+  "AI": [
+   "TRY"
+  ],
+  "ALGO": [
+   "TRY"
+  ],
+  "ALICE": [
+   "TRY"
+  ],
+  "ALLO": [
+   "TRY"
+  ],
+  "ALPINE": [
+   "TRY"
+  ],
+  "ALT": [
+   "TRY"
+  ],
+  "AMP": [
+   "TRY"
+  ],
+  "ANIME": [
+   "TRY"
+  ],
+  "ANKR": [
+   "TRY"
+  ],
+  "APE": [
+   "TRY"
+  ],
+  "API3": [
+   "TRY"
+  ],
+  "APT": [
+   "TRY"
+  ],
+  "ARB": [
+   "TRY"
+  ],
+  "ARKM": [
+   "TRY"
+  ],
+  "ARK": [
+   "TRY"
+  ],
+  "ARPA": [
+   "TRY"
+  ],
+  "AR": [
+   "TRY"
+  ],
+  "ASR": [
+   "TRY"
+  ],
+  "ASTER": [
+   "TRY"
+  ],
+  "ATM": [
+   "TRY"
+  ],
+  "ATOM": [
+   "TRY"
+  ],
+  "AT": [
+   "TRY"
+  ],
+  "AUCTION": [
+   "TRY"
+  ],
+  "AUDIO": [
+   "TRY"
+  ],
+  "AVAX": [
+   "TRY"
+  ],
+  "AVNT": [
+   "TRY"
+  ],
+  "AXL": [
+   "TRY"
+  ],
+  "AXS": [
+   "TRY"
+  ],
+  "A": [
+   "TRY"
+  ],
+  "BABY": [
+   "TRY"
+  ],
+  "BANANA": [
+   "TRY"
+  ],
+  "BANK": [
+   "TRY"
+  ],
+  "BARD": [
+   "TRY"
+  ],
+  "BAR": [
+   "TRY"
+  ],
+  "BB": [
+   "TRY"
+  ],
+  "BCH": [
+   "TRY"
+  ],
+  "BEAMX": [
+   "TRY"
+  ],
+  "BEL": [
+   "TRY"
+  ],
+  "BERA": [
+   "TRY"
+  ],
+  "BIO": [
+   "TRY"
+  ],
+  "BLUR": [
+   "TRY"
+  ],
+  "BMT": [
+   "TRY"
+  ],
+  "BNB": [
+   "TRY"
+  ],
+  "BOME": [
+   "TRY"
+  ],
+  "BONK": [
+   "TRY"
+  ],
+  "BREV": [
+   "TRY"
+  ],
+  "BTC": [
+   "TRY"
+  ],
+  "CAKE": [
+   "TRY"
+  ],
+  "CATI": [
+   "TRY"
+  ],
+  "CELO": [
+   "TRY"
+  ],
+  "CETUS": [
+   "TRY"
+  ],
+  "CFG": [
+   "TRY"
+  ],
+  "CFX": [
+   "TRY"
+  ],
+  "CHIP": [
+   "TRY"
+  ],
+  "CHZ": [
+   "TRY"
+  ],
+  "CITY": [
+   "TRY"
+  ],
+  "CKB": [
+   "TRY"
+  ],
+  "COMP": [
+   "TRY"
+  ],
+  "COTI": [
+   "TRY"
+  ],
+  "COW": [
+   "TRY"
+  ],
+  "CRV": [
+   "TRY"
+  ],
+  "CYBER": [
+   "TRY"
+  ],
+  "C": [
+   "TRY"
+  ],
+  "DASH": [
+   "TRY"
+  ],
+  "DODO": [
+   "TRY"
+  ],
+  "DOGE": [
+   "TRY"
+  ],
+  "DOGS": [
+   "TRY"
+  ],
+  "DOLO": [
+   "TRY"
+  ],
+  "DOT": [
+   "TRY"
+  ],
+  "DYDX": [
+   "TRY"
+  ],
+  "DYM": [
+   "TRY"
+  ],
+  "EDEN": [
+   "TRY"
+  ],
+  "EDU": [
+   "TRY"
+  ],
+  "EGLD": [
+   "TRY"
+  ],
+  "EIGEN": [
+   "TRY"
+  ],
+  "ENA": [
+   "TRY"
+  ],
+  "ENJ": [
+   "TRY"
+  ],
+  "ENSO": [
+   "TRY"
+  ],
+  "ENS": [
+   "TRY"
+  ],
+  "ERA": [
+   "TRY"
+  ],
+  "ESP": [
+   "TRY"
+  ],
+  "ETC": [
+   "TRY"
+  ],
+  "ETHFI": [
+   "TRY"
+  ],
+  "ETH": [
+   "TRY"
+  ],
+  "EUL": [
+   "TRY"
+  ],
+  "FDUSD": [
+   "TRY"
+  ],
+  "FET": [
+   "TRY"
+  ],
+  "FF": [
+   "TRY"
+  ],
+  "FIDA": [
+   "TRY"
+  ],
+  "FIL": [
+   "TRY"
+  ],
+  "FLOKI": [
+   "TRY"
+  ],
+  "FOGO": [
+   "TRY"
+  ],
+  "FORM": [
+   "TRY"
+  ],
+  "F": [
+   "TRY"
+  ],
+  "GALA": [
+   "TRY"
+  ],
+  "GAS": [
+   "TRY"
+  ],
+  "GENIUS": [
+   "TRY"
+  ],
+  "GIGGLE": [
+   "TRY"
+  ],
+  "GMT": [
+   "TRY"
+  ],
+  "GPS": [
+   "TRY"
+  ],
+  "GRAM": [
+   "TRY"
+  ],
+  "GRT": [
+   "TRY"
+  ],
+  "GUN": [
+   "TRY"
+  ],
+  "G": [
+   "TRY"
+  ],
+  "HAEDAL": [
+   "TRY"
+  ],
+  "HBAR": [
+   "TRY"
+  ],
+  "HEI": [
+   "TRY"
+  ],
+  "HEMI": [
+   "TRY"
+  ],
+  "HIVE": [
+   "TRY"
+  ],
+  "HMSTR": [
+   "TRY"
+  ],
+  "HOLO": [
+   "TRY"
+  ],
+  "HOME": [
+   "TRY"
+  ],
+  "HOT": [
+   "TRY"
+  ],
+  "HUMA": [
+   "TRY"
+  ],
+  "HYPER": [
+   "TRY"
+  ],
+  "HYPE": [
+   "TRY"
+  ],
+  "ICP": [
+   "TRY"
+  ],
+  "ID": [
+   "TRY"
+  ],
+  "INIT": [
+   "TRY"
+  ],
+  "INJ": [
+   "TRY"
+  ],
+  "IOTA": [
+   "TRY"
+  ],
+  "IO": [
+   "TRY"
+  ],
+  "JASMY": [
+   "TRY"
+  ],
+  "JTO": [
+   "TRY"
+  ],
+  "JUP": [
+   "TRY"
+  ],
+  "JUV": [
+   "TRY"
+  ],
+  "KAITO": [
+   "TRY"
+  ],
+  "KAT": [
+   "TRY"
+  ],
+  "KERNEL": [
+   "TRY"
+  ],
+  "KITE": [
+   "TRY"
+  ],
+  "KSM": [
+   "TRY"
+  ],
+  "LAYER": [
+   "TRY"
+  ],
+  "LAZIO": [
+   "TRY"
+  ],
+  "LA": [
+   "TRY"
+  ],
+  "LDO": [
+   "TRY"
+  ],
+  "LINEA": [
+   "TRY"
+  ],
+  "LINK": [
+   "TRY"
+  ],
+  "LISTA": [
+   "TRY"
+  ],
+  "LPT": [
+   "TRY"
+  ],
+  "LTC": [
+   "TRY"
+  ],
+  "LUMIA": [
+   "TRY"
+  ],
+  "LUNA": [
+   "TRY"
+  ],
+  "LUNC": [
+   "TRY"
+  ],
+  "MAGIC": [
+   "TRY"
+  ],
+  "MANA": [
+   "TRY"
+  ],
+  "MANTA": [
+   "TRY"
+  ],
+  "MANTRA": [
+   "TRY"
+  ],
+  "MARSCOIN": [
+   "TRY"
+  ],
+  "MASK": [
+   "TRY"
+  ],
+  "MAV": [
+   "TRY"
+  ],
+  "MEGA": [
+   "TRY"
+  ],
+  "MEME": [
+   "TRY"
+  ],
+  "METIS": [
+   "TRY"
+  ],
+  "MET": [
+   "TRY"
+  ],
+  "ME": [
+   "TRY"
+  ],
+  "MINA": [
+   "TRY"
+  ],
+  "MIRA": [
+   "TRY"
+  ],
+  "MITO": [
+   "TRY"
+  ],
+  "MMT": [
+   "TRY"
+  ],
+  "MORPHO": [
+   "TRY"
+  ],
+  "MOVR": [
+   "TRY"
+  ],
+  "MUBARAK": [
+   "TRY"
+  ],
+  "NEAR": [
+   "TRY"
+  ],
+  "NEIRO": [
+   "TRY"
+  ],
+  "NEO": [
+   "TRY"
+  ],
+  "NEWT": [
+   "TRY"
+  ],
+  "NIGHT": [
+   "TRY"
+  ],
+  "NIL": [
+   "TRY"
+  ],
+  "NMR": [
+   "TRY"
+  ],
+  "NOM": [
+   "TRY"
+  ],
+  "NOT": [
+   "TRY"
+  ],
+  "NXPC": [
+   "TRY"
+  ],
+  "OGN": [
+   "TRY"
+  ],
+  "OG": [
+   "TRY"
+  ],
+  "ONDO": [
+   "TRY"
+  ],
+  "ONE": [
+   "TRY"
+  ],
+  "ONT": [
+   "TRY"
+  ],
+  "OPEN": [
+   "TRY"
+  ],
+  "OPG": [
+   "TRY"
+  ],
+  "OPN": [
+   "TRY"
+  ],
+  "OP": [
+   "TRY"
+  ],
+  "ORCA": [
+   "TRY"
+  ],
+  "ORDI": [
+   "TRY"
+  ],
+  "PARTI": [
+   "TRY"
+  ],
+  "PAXG": [
+   "TRY"
+  ],
+  "PENDLE": [
+   "TRY"
+  ],
+  "PENGU": [
+   "TRY"
+  ],
+  "PEOPLE": [
+   "TRY"
+  ],
+  "PEPE": [
+   "TRY"
+  ],
+  "PHA": [
+   "TRY"
+  ],
+  "PIXEL": [
+   "TRY"
+  ],
+  "PLUME": [
+   "TRY"
+  ],
+  "PNUT": [
+   "TRY"
+  ],
+  "POLYX": [
+   "TRY"
+  ],
+  "POL": [
+   "TRY"
+  ],
+  "PORTAL": [
+   "TRY"
+  ],
+  "PORTO": [
+   "TRY"
+  ],
+  "PROVE": [
+   "TRY"
+  ],
+  "PSG": [
+   "TRY"
+  ],
+  "PUMP": [
+   "TRY"
+  ],
+  "PYTH": [
+   "TRY"
+  ],
+  "QTUM": [
+   "TRY"
+  ],
+  "RAD": [
+   "TRY"
+  ],
+  "RARE": [
+   "TRY"
+  ],
+  "RAY": [
+   "TRY"
+  ],
+  "RED": [
+   "TRY"
+  ],
+  "RENDER": [
+   "TRY"
+  ],
+  "RESOLV": [
+   "TRY"
+  ],
+  "REZ": [
+   "TRY"
+  ],
+  "RE": [
+   "TRY"
+  ],
+  "ROBO": [
+   "TRY"
+  ],
+  "RONIN": [
+   "TRY"
+  ],
+  "ROSE": [
+   "TRY"
+  ],
+  "RSR": [
+   "TRY"
+  ],
+  "RVN": [
+   "TRY"
+  ],
+  "SAGA": [
+   "TRY"
+  ],
+  "SAHARA": [
+   "TRY"
+  ],
+  "SAND": [
+   "TRY"
+  ],
+  "SANTOS": [
+   "TRY"
+  ],
+  "SAPIEN": [
+   "TRY"
+  ],
+  "SCR": [
+   "TRY"
+  ],
+  "SEI": [
+   "TRY"
+  ],
+  "SENT": [
+   "TRY"
+  ],
+  "SHELL": [
+   "TRY"
+  ],
+  "SHIB": [
+   "TRY"
+  ],
+  "SIGN": [
+   "TRY"
+  ],
+  "SKL": [
+   "TRY"
+  ],
+  "SKY": [
+   "TRY"
+  ],
+  "SLP": [
+   "TRY"
+  ],
+  "SNX": [
+   "TRY"
+  ],
+  "SOLV": [
+   "TRY"
+  ],
+  "SOL": [
+   "TRY"
+  ],
+  "SOMI": [
+   "TRY"
+  ],
+  "SOPH": [
+   "TRY"
+  ],
+  "SPELL": [
+   "TRY"
+  ],
+  "SPK": [
+   "TRY"
+  ],
+  "STO": [
+   "TRY"
+  ],
+  "STRAX": [
+   "TRY"
+  ],
+  "STRK": [
+   "TRY"
+  ],
+  "STX": [
+   "TRY"
+  ],
+  "SUI": [
+   "TRY"
+  ],
+  "SUN": [
+   "TRY"
+  ],
+  "SUPER": [
+   "TRY"
+  ],
+  "SUSHI": [
+   "TRY"
+  ],
+  "SXT": [
+   "TRY"
+  ],
+  "SYRUP": [
+   "TRY"
+  ],
+  "S": [
+   "TRY"
+  ],
+  "TAO": [
+   "TRY"
+  ],
+  "THETA": [
+   "TRY"
+  ],
+  "THE": [
+   "TRY"
+  ],
+  "TIA": [
+   "TRY"
+  ],
+  "TLM": [
+   "TRY"
+  ],
+  "TNSR": [
+   "TRY"
+  ],
+  "TOWNS": [
+   "TRY"
+  ],
+  "TRB": [
+   "TRY"
+  ],
+  "TREE": [
+   "TRY"
+  ],
+  "TRUMP": [
+   "TRY"
+  ],
+  "TRX": [
+   "TRY"
+  ],
+  "TST": [
+   "TRY"
+  ],
+  "TURBO": [
+   "TRY"
+  ],
+  "TURTLE": [
+   "TRY"
+  ],
+  "TWT": [
+   "TRY"
+  ],
+  "UMA": [
+   "TRY"
+  ],
+  "UNI": [
+   "TRY"
+  ],
+  "USD1": [
+   "TRY"
+  ],
+  "USDC": [
+   "TRY"
+  ],
+  "USDT": [
+   "TRY"
+  ],
+  "USTC": [
+   "TRY"
+  ],
+  "USUAL": [
+   "TRY"
+  ],
+  "U": [
+   "TRY"
+  ],
+  "VANA": [
+   "TRY"
+  ],
+  "VET": [
+   "TRY"
+  ],
+  "VIRTUAL": [
+   "TRY"
+  ],
+  "WAL": [
+   "TRY"
+  ],
+  "WCT": [
+   "TRY"
+  ],
+  "WIF": [
+   "TRY"
+  ],
+  "WLD": [
+   "TRY"
+  ],
+  "WLFI": [
+   "TRY"
+  ],
+  "W": [
+   "TRY"
+  ],
+  "XAI": [
+   "TRY"
+  ],
+  "XAUT": [
+   "TRY"
+  ],
+  "XEC": [
+   "TRY"
+  ],
+  "XLM": [
+   "TRY"
+  ],
+  "XPL": [
+   "TRY"
+  ],
+  "XRP": [
+   "TRY"
+  ],
+  "XTZ": [
+   "TRY"
+  ],
+  "XVG": [
+   "TRY"
+  ],
+  "YB": [
+   "TRY"
+  ],
+  "ZBT": [
+   "TRY"
+  ],
+  "ZIL": [
+   "TRY"
+  ],
+  "ZKC": [
+   "TRY"
+  ],
+  "ZKP": [
+   "TRY"
+  ],
+  "ZK": [
+   "TRY"
+  ],
+  "ZRO": [
+   "TRY"
+  ]
+ }
+}

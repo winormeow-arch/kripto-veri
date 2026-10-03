@@ -1,0 +1,4323 @@
+{
+ "guncelleme": "2026-10-03T20:05:37Z",
+ "kaynak": "https://data-api.binance.vision",
+ "tr_liste": "dosya: tr.json",
+ "usdttry": 49.13,
+ "coin_sayisi": 308,
+ "tr_de_olup_globalde_usdt_paritesi_olmayan": [],
+ "mumu_eksik": [],
+ "coinler": [
+  {
+   "sembol": "USDCUSDT",
+   "coin": "USDC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.00014,
+   "fiyatTL": 49.1368782,
+   "degisim24s": -0.0,
+   "yuksek24s": 1.00022,
+   "dusuk24s": 1.0001,
+   "hacimUSDT": 1294720594,
+   "islem": 359454
+  },
+  {
+   "sembol": "BTCUSDT",
+   "coin": "BTC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 84881.03,
+   "fiyatTL": 4170205.0039,
+   "degisim24s": 0.54,
+   "yuksek24s": 85037.63,
+   "dusuk24s": 84232.01,
+   "hacimUSDT": 599824198,
+   "islem": 772445
+  },
+  {
+   "sembol": "ETHUSDT",
+   "coin": "ETH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2688.78,
+   "fiyatTL": 132099.7614,
+   "degisim24s": 0.75,
+   "yuksek24s": 2690.0,
+   "dusuk24s": 2657.2,
+   "hacimUSDT": 244481394,
+   "islem": 960188
+  },
+  {
+   "sembol": "SOLUSDT",
+   "coin": "SOL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 119.96,
+   "fiyatTL": 5893.6348,
+   "degisim24s": 1.59,
+   "yuksek24s": 120.09,
+   "dusuk24s": 117.7,
+   "hacimUSDT": 113557730,
+   "islem": 251256
+  },
+  {
+   "sembol": "XRPUSDT",
+   "coin": "XRP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.4907,
+   "fiyatTL": 73.238091,
+   "degisim24s": 1.22,
+   "yuksek24s": 1.496,
+   "dusuk24s": 1.4712,
+   "hacimUSDT": 84338815,
+   "islem": 219859
+  },
+  {
+   "sembol": "WLDUSDT",
+   "coin": "WLD",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.5903,
+   "fiyatTL": 29.001439,
+   "degisim24s": 9.4,
+   "yuksek24s": 0.6192,
+   "dusuk24s": 0.5272,
+   "hacimUSDT": 84156981,
+   "islem": 559491
+  },
+  {
+   "sembol": "BNBUSDT",
+   "coin": "BNB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 789.44,
+   "fiyatTL": 38785.1872,
+   "degisim24s": 2.99,
+   "yuksek24s": 792.82,
+   "dusuk24s": 763.73,
+   "hacimUSDT": 78785778,
+   "islem": 358597
+  },
+  {
+   "sembol": "NEARUSDT",
+   "coin": "NEAR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.767,
+   "fiyatTL": 234.20271,
+   "degisim24s": 3.29,
+   "yuksek24s": 4.794,
+   "dusuk24s": 4.59,
+   "hacimUSDT": 72921682,
+   "islem": 281985
+  },
+  {
+   "sembol": "USD1USDT",
+   "coin": "USD1",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.99975,
+   "fiyatTL": 49.1177175,
+   "degisim24s": 0.01,
+   "yuksek24s": 0.99979,
+   "dusuk24s": 0.99951,
+   "hacimUSDT": 71382653,
+   "islem": 133489
+  },
+  {
+   "sembol": "SUIUSDT",
+   "coin": "SUI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.1773,
+   "fiyatTL": 57.840749,
+   "degisim24s": 4.7,
+   "yuksek24s": 1.1981,
+   "dusuk24s": 1.1177,
+   "hacimUSDT": 71002269,
+   "islem": 485092
+  },
+  {
+   "sembol": "SANDUSDT",
+   "coin": "SAND",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.07501,
+   "fiyatTL": 3.6852413,
+   "degisim24s": 19.5,
+   "yuksek24s": 0.08396,
+   "dusuk24s": 0.06122,
+   "hacimUSDT": 63812977,
+   "islem": 648156
+  },
+  {
+   "sembol": "UNIUSDT",
+   "coin": "UNI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 9.043,
+   "fiyatTL": 444.28259,
+   "degisim24s": 3.5,
+   "yuksek24s": 9.324,
+   "dusuk24s": 8.697,
+   "hacimUSDT": 53905310,
+   "islem": 196668
+  },
+  {
+   "sembol": "AVAXUSDT",
+   "coin": "AVAX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 11.15,
+   "fiyatTL": 547.7995,
+   "degisim24s": 5.06,
+   "yuksek24s": 11.218,
+   "dusuk24s": 10.54,
+   "hacimUSDT": 40776074,
+   "islem": 287184
+  },
+  {
+   "sembol": "PUMPUSDT",
+   "coin": "PUMP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.006288,
+   "fiyatTL": 0.30892944,
+   "degisim24s": 16.92,
+   "yuksek24s": 0.006486,
+   "dusuk24s": 0.005204,
+   "hacimUSDT": 37048129,
+   "islem": 298278
+  },
+  {
+   "sembol": "DOGEUSDT",
+   "coin": "DOGE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.09325,
+   "fiyatTL": 4.5813725,
+   "degisim24s": 1.92,
+   "yuksek24s": 0.09364,
+   "dusuk24s": 0.09119,
+   "hacimUSDT": 34914750,
+   "islem": 191628
+  },
+  {
+   "sembol": "ZROUSDT",
+   "coin": "ZRO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.06,
+   "fiyatTL": 101.2078,
+   "degisim24s": 15.79,
+   "yuksek24s": 2.146,
+   "dusuk24s": 1.726,
+   "hacimUSDT": 33503807,
+   "islem": 287607
+  },
+  {
+   "sembol": "LTCUSDT",
+   "coin": "LTC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 69.03,
+   "fiyatTL": 3391.4439,
+   "degisim24s": 0.23,
+   "yuksek24s": 71.36,
+   "dusuk24s": 68.45,
+   "hacimUSDT": 29180873,
+   "islem": 183536
+  },
+  {
+   "sembol": "AAVEUSDT",
+   "coin": "AAVE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 180.18,
+   "fiyatTL": 8852.2434,
+   "degisim24s": -0.49,
+   "yuksek24s": 183.49,
+   "dusuk24s": 176.33,
+   "hacimUSDT": 27842411,
+   "islem": 166053
+  },
+  {
+   "sembol": "TAOUSDT",
+   "coin": "TAO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 296.3,
+   "fiyatTL": 14557.219,
+   "degisim24s": 3.24,
+   "yuksek24s": 296.9,
+   "dusuk24s": 285.3,
+   "hacimUSDT": 24963404,
+   "islem": 111939
+  },
+  {
+   "sembol": "LINKUSDT",
+   "coin": "LINK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 14.023,
+   "fiyatTL": 688.94999,
+   "degisim24s": 3.12,
+   "yuksek24s": 14.135,
+   "dusuk24s": 13.548,
+   "hacimUSDT": 23730757,
+   "islem": 198342
+  },
+  {
+   "sembol": "ENAUSDT",
+   "coin": "ENA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2383,
+   "fiyatTL": 11.707679,
+   "degisim24s": 1.1,
+   "yuksek24s": 0.2389,
+   "dusuk24s": 0.2279,
+   "hacimUSDT": 23665416,
+   "islem": 138547
+  },
+  {
+   "sembol": "ADAUSDT",
+   "coin": "ADA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.246,
+   "fiyatTL": 12.08598,
+   "degisim24s": 2.54,
+   "yuksek24s": 0.2487,
+   "dusuk24s": 0.2389,
+   "hacimUSDT": 21340128,
+   "islem": 85804
+  },
+  {
+   "sembol": "MOVRUSDT",
+   "coin": "MOVR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.0,
+   "fiyatTL": 98.26,
+   "degisim24s": 0.65,
+   "yuksek24s": 2.135,
+   "dusuk24s": 1.673,
+   "hacimUSDT": 21254886,
+   "islem": 221659
+  },
+  {
+   "sembol": "TRXUSDT",
+   "coin": "TRX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3359,
+   "fiyatTL": 16.502767,
+   "degisim24s": 0.3,
+   "yuksek24s": 0.3375,
+   "dusuk24s": 0.3342,
+   "hacimUSDT": 20513311,
+   "islem": 55101
+  },
+  {
+   "sembol": "HYPEUSDT",
+   "coin": "HYPE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 89.36,
+   "fiyatTL": 4390.2568,
+   "degisim24s": 2.82,
+   "yuksek24s": 90.06,
+   "dusuk24s": 86.16,
+   "hacimUSDT": 19004972,
+   "islem": 31737
+  },
+  {
+   "sembol": "ONEUSDT",
+   "coin": "ONE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002625,
+   "fiyatTL": 0.12896625,
+   "degisim24s": 24.29,
+   "yuksek24s": 0.002944,
+   "dusuk24s": 0.002103,
+   "hacimUSDT": 18848538,
+   "islem": 300292
+  },
+  {
+   "sembol": "FETUSDT",
+   "coin": "FET",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2267,
+   "fiyatTL": 11.137771,
+   "degisim24s": 3.94,
+   "yuksek24s": 0.2312,
+   "dusuk24s": 0.2146,
+   "hacimUSDT": 18098819,
+   "islem": 68851
+  },
+  {
+   "sembol": "NIGHTUSDT",
+   "coin": "NIGHT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.04833,
+   "fiyatTL": 2.3744529,
+   "degisim24s": 3.31,
+   "yuksek24s": 0.05315,
+   "dusuk24s": 0.04593,
+   "hacimUSDT": 17385812,
+   "islem": 223215
+  },
+  {
+   "sembol": "ONDOUSDT",
+   "coin": "ONDO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.4933,
+   "fiyatTL": 24.235829,
+   "degisim24s": 2.2,
+   "yuksek24s": 0.4981,
+   "dusuk24s": 0.4793,
+   "hacimUSDT": 16831356,
+   "islem": 70934
+  },
+  {
+   "sembol": "TRUMPUSDT",
+   "coin": "TRUMP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.052,
+   "fiyatTL": 100.81476,
+   "degisim24s": 1.69,
+   "yuksek24s": 2.13,
+   "dusuk24s": 2.016,
+   "hacimUSDT": 14479931,
+   "islem": 67520
+  },
+  {
+   "sembol": "MARSCOINUSDT",
+   "coin": "MARSCOIN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1084,
+   "fiyatTL": 5.325692,
+   "degisim24s": -2.87,
+   "yuksek24s": 0.1141,
+   "dusuk24s": 0.1035,
+   "hacimUSDT": 13794579,
+   "islem": 96382
+  },
+  {
+   "sembol": "PEPEUSDT",
+   "coin": "PEPE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.32e-06,
+   "fiyatTL": 0.00021224,
+   "degisim24s": 3.1,
+   "yuksek24s": 4.34e-06,
+   "dusuk24s": 4.14e-06,
+   "hacimUSDT": 13752000,
+   "islem": 35999
+  },
+  {
+   "sembol": "UUSDT",
+   "coin": "U",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.9993,
+   "fiyatTL": 49.095609,
+   "degisim24s": -0.02,
+   "yuksek24s": 0.9996,
+   "dusuk24s": 0.9993,
+   "hacimUSDT": 13532937,
+   "islem": 14822
+  },
+  {
+   "sembol": "STRKUSDT",
+   "coin": "STRK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.05098,
+   "fiyatTL": 2.5046474,
+   "degisim24s": 23.32,
+   "yuksek24s": 0.05353,
+   "dusuk24s": 0.04112,
+   "hacimUSDT": 12325024,
+   "islem": 170287
+  },
+  {
+   "sembol": "SUPERUSDT",
+   "coin": "SUPER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2626,
+   "fiyatTL": 12.901538,
+   "degisim24s": 16.66,
+   "yuksek24s": 0.2839,
+   "dusuk24s": 0.2247,
+   "hacimUSDT": 12144893,
+   "islem": 85927
+  },
+  {
+   "sembol": "PENGUUSDT",
+   "coin": "PENGU",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00921,
+   "fiyatTL": 0.4524873,
+   "degisim24s": 3.9,
+   "yuksek24s": 0.009304,
+   "dusuk24s": 0.008717,
+   "hacimUSDT": 11492408,
+   "islem": 111093
+  },
+  {
+   "sembol": "DOTUSDT",
+   "coin": "DOT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.193,
+   "fiyatTL": 58.61209,
+   "degisim24s": 3.38,
+   "yuksek24s": 1.223,
+   "dusuk24s": 1.138,
+   "hacimUSDT": 10990263,
+   "islem": 69960
+  },
+  {
+   "sembol": "FDUSDUSDT",
+   "coin": "FDUSD",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.9995,
+   "fiyatTL": 49.105435,
+   "degisim24s": 0.06,
+   "yuksek24s": 0.9998,
+   "dusuk24s": 0.9988,
+   "hacimUSDT": 10934560,
+   "islem": 14194
+  },
+  {
+   "sembol": "ASTERUSDT",
+   "coin": "ASTER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.7171,
+   "fiyatTL": 35.231123,
+   "degisim24s": 0.43,
+   "yuksek24s": 0.7248,
+   "dusuk24s": 0.7056,
+   "hacimUSDT": 10876351,
+   "islem": 60541
+  },
+  {
+   "sembol": "INJUSDT",
+   "coin": "INJ",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 7.613,
+   "fiyatTL": 374.02669,
+   "degisim24s": 3.63,
+   "yuksek24s": 7.843,
+   "dusuk24s": 7.26,
+   "hacimUSDT": 10112284,
+   "islem": 123252
+  },
+  {
+   "sembol": "ARBUSDT",
+   "coin": "ARB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2013,
+   "fiyatTL": 9.889869,
+   "degisim24s": 4.79,
+   "yuksek24s": 0.2043,
+   "dusuk24s": 0.1912,
+   "hacimUSDT": 9856541,
+   "islem": 46860
+  },
+  {
+   "sembol": "MANAUSDT",
+   "coin": "MANA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1047,
+   "fiyatTL": 5.143911,
+   "degisim24s": 7.28,
+   "yuksek24s": 0.1162,
+   "dusuk24s": 0.0956,
+   "hacimUSDT": 9746413,
+   "islem": 71632
+  },
+  {
+   "sembol": "ARUSDT",
+   "coin": "AR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.523,
+   "fiyatTL": 222.21499,
+   "degisim24s": 7.87,
+   "yuksek24s": 4.781,
+   "dusuk24s": 4.129,
+   "hacimUSDT": 9528308,
+   "islem": 105787
+  },
+  {
+   "sembol": "GALAUSDT",
+   "coin": "GALA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002513,
+   "fiyatTL": 0.12346369,
+   "degisim24s": -1.45,
+   "yuksek24s": 0.002767,
+   "dusuk24s": 0.002481,
+   "hacimUSDT": 9499911,
+   "islem": 105947
+  },
+  {
+   "sembol": "XPLUSDT",
+   "coin": "XPL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.09575,
+   "fiyatTL": 4.7041975,
+   "degisim24s": 4.77,
+   "yuksek24s": 0.09665,
+   "dusuk24s": 0.0903,
+   "hacimUSDT": 9350810,
+   "islem": 100017
+  },
+  {
+   "sembol": "HBARUSDT",
+   "coin": "HBAR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1025,
+   "fiyatTL": 5.035825,
+   "degisim24s": 2.97,
+   "yuksek24s": 0.10299,
+   "dusuk24s": 0.0992,
+   "hacimUSDT": 9141984,
+   "islem": 71034
+  },
+  {
+   "sembol": "RESOLVUSDT",
+   "coin": "RESOLV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01953,
+   "fiyatTL": 0.9595089,
+   "degisim24s": -2.2,
+   "yuksek24s": 0.02707,
+   "dusuk24s": 0.01861,
+   "hacimUSDT": 9109845,
+   "islem": 199828
+  },
+  {
+   "sembol": "FILUSDT",
+   "coin": "FIL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.0599,
+   "fiyatTL": 52.072887,
+   "degisim24s": 5.71,
+   "yuksek24s": 1.0839,
+   "dusuk24s": 0.9992,
+   "hacimUSDT": 8852849,
+   "islem": 112822
+  },
+  {
+   "sembol": "2ZUSDT",
+   "coin": "2Z",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.04564,
+   "fiyatTL": 2.2422932,
+   "degisim24s": -0.65,
+   "yuksek24s": 0.04756,
+   "dusuk24s": 0.04432,
+   "hacimUSDT": 8555373,
+   "islem": 128025
+  },
+  {
+   "sembol": "XLMUSDT",
+   "coin": "XLM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2159,
+   "fiyatTL": 10.607167,
+   "degisim24s": 2.18,
+   "yuksek24s": 0.217,
+   "dusuk24s": 0.2102,
+   "hacimUSDT": 8462651,
+   "islem": 42771
+  },
+  {
+   "sembol": "AXSUSDT",
+   "coin": "AXS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.2,
+   "fiyatTL": 58.956,
+   "degisim24s": 1.44,
+   "yuksek24s": 1.308,
+   "dusuk24s": 1.179,
+   "hacimUSDT": 8274307,
+   "islem": 60951
+  },
+  {
+   "sembol": "RAYUSDT",
+   "coin": "RAY",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.0939,
+   "fiyatTL": 102.873307,
+   "degisim24s": 12.84,
+   "yuksek24s": 2.15,
+   "dusuk24s": 1.8474,
+   "hacimUSDT": 7940232,
+   "islem": 61500
+  },
+  {
+   "sembol": "XAUTUSDT",
+   "coin": "XAUT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4140.77,
+   "fiyatTL": 203436.0301,
+   "degisim24s": -0.08,
+   "yuksek24s": 4145.37,
+   "dusuk24s": 4136.0,
+   "hacimUSDT": 7860370,
+   "islem": 16925
+  },
+  {
+   "sembol": "OPUSDT",
+   "coin": "OP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1355,
+   "fiyatTL": 6.657115,
+   "degisim24s": 8.05,
+   "yuksek24s": 0.1391,
+   "dusuk24s": 0.1234,
+   "hacimUSDT": 7731173,
+   "islem": 41795
+  },
+  {
+   "sembol": "ENJUSDT",
+   "coin": "ENJ",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03322,
+   "fiyatTL": 1.6320986,
+   "degisim24s": 3.59,
+   "yuksek24s": 0.03795,
+   "dusuk24s": 0.03202,
+   "hacimUSDT": 7652982,
+   "islem": 117676
+  },
+  {
+   "sembol": "ATUSDT",
+   "coin": "AT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1245,
+   "fiyatTL": 6.116685,
+   "degisim24s": -17.82,
+   "yuksek24s": 0.154,
+   "dusuk24s": 0.1075,
+   "hacimUSDT": 7504064,
+   "islem": 141568
+  },
+  {
+   "sembol": "BCHUSDT",
+   "coin": "BCH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 315.9,
+   "fiyatTL": 15520.167,
+   "degisim24s": 3.68,
+   "yuksek24s": 316.5,
+   "dusuk24s": 304.5,
+   "hacimUSDT": 7421660,
+   "islem": 41543
+  },
+  {
+   "sembol": "APTUSDT",
+   "coin": "APT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.8064,
+   "fiyatTL": 39.618432,
+   "degisim24s": 3.0,
+   "yuksek24s": 0.8221,
+   "dusuk24s": 0.7705,
+   "hacimUSDT": 7111199,
+   "islem": 73490
+  },
+  {
+   "sembol": "MEMEUSDT",
+   "coin": "MEME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.000597,
+   "fiyatTL": 0.02933061,
+   "degisim24s": 4.74,
+   "yuksek24s": 0.000602,
+   "dusuk24s": 0.000567,
+   "hacimUSDT": 6615181,
+   "islem": 30758
+  },
+  {
+   "sembol": "ARKUSDT",
+   "coin": "ARK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2271,
+   "fiyatTL": 11.157423,
+   "degisim24s": 4.27,
+   "yuksek24s": 0.267,
+   "dusuk24s": 0.2038,
+   "hacimUSDT": 6601535,
+   "islem": 86657
+  },
+  {
+   "sembol": "TIAUSDT",
+   "coin": "TIA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.4711,
+   "fiyatTL": 23.145143,
+   "degisim24s": 6.85,
+   "yuksek24s": 0.4814,
+   "dusuk24s": 0.4329,
+   "hacimUSDT": 6417122,
+   "islem": 102068
+  },
+  {
+   "sembol": "ALICEUSDT",
+   "coin": "ALICE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.174,
+   "fiyatTL": 8.54862,
+   "degisim24s": 1.04,
+   "yuksek24s": 0.2002,
+   "dusuk24s": 0.1711,
+   "hacimUSDT": 5780088,
+   "islem": 69686
+  },
+  {
+   "sembol": "ICPUSDT",
+   "coin": "ICP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 3.321,
+   "fiyatTL": 163.16073,
+   "degisim24s": 2.79,
+   "yuksek24s": 3.385,
+   "dusuk24s": 3.209,
+   "hacimUSDT": 5687419,
+   "islem": 36900
+  },
+  {
+   "sembol": "DASHUSDT",
+   "coin": "DASH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 59.13,
+   "fiyatTL": 2905.0569,
+   "degisim24s": 4.16,
+   "yuksek24s": 59.96,
+   "dusuk24s": 56.0,
+   "hacimUSDT": 5517084,
+   "islem": 37982
+  },
+  {
+   "sembol": "GRAMUSDT",
+   "coin": "GRAM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.511,
+   "fiyatTL": 74.23543,
+   "degisim24s": 1.61,
+   "yuksek24s": 1.52,
+   "dusuk24s": 1.482,
+   "hacimUSDT": 5418632,
+   "islem": 25524
+  },
+  {
+   "sembol": "MUBARAKUSDT",
+   "coin": "MUBARAK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.06319,
+   "fiyatTL": 3.1045247,
+   "degisim24s": 4.46,
+   "yuksek24s": 0.06415,
+   "dusuk24s": 0.05956,
+   "hacimUSDT": 5355501,
+   "islem": 83914
+  },
+  {
+   "sembol": "VIRTUALUSDT",
+   "coin": "VIRTUAL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.795,
+   "fiyatTL": 39.05835,
+   "degisim24s": 5.68,
+   "yuksek24s": 0.8067,
+   "dusuk24s": 0.7455,
+   "hacimUSDT": 5284673,
+   "islem": 56031
+  },
+  {
+   "sembol": "CHZUSDT",
+   "coin": "CHZ",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01727,
+   "fiyatTL": 0.8484751,
+   "degisim24s": 7.27,
+   "yuksek24s": 0.01805,
+   "dusuk24s": 0.01603,
+   "hacimUSDT": 5259803,
+   "islem": 30741
+  },
+  {
+   "sembol": "AEROUSDT",
+   "coin": "AERO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.8287,
+   "fiyatTL": 40.714031,
+   "degisim24s": 6.63,
+   "yuksek24s": 0.8318,
+   "dusuk24s": 0.7702,
+   "hacimUSDT": 5181058,
+   "islem": 41388
+  },
+  {
+   "sembol": "OPENUSDT",
+   "coin": "OPEN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1145,
+   "fiyatTL": 5.625385,
+   "degisim24s": -8.62,
+   "yuksek24s": 0.1318,
+   "dusuk24s": 0.1135,
+   "hacimUSDT": 5033724,
+   "islem": 67701
+  },
+  {
+   "sembol": "KITEUSDT",
+   "coin": "KITE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1563,
+   "fiyatTL": 7.679019,
+   "degisim24s": 7.2,
+   "yuksek24s": 0.1583,
+   "dusuk24s": 0.145,
+   "hacimUSDT": 4662582,
+   "islem": 90601
+  },
+  {
+   "sembol": "RENDERUSDT",
+   "coin": "RENDER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.984,
+   "fiyatTL": 97.47392,
+   "degisim24s": 4.97,
+   "yuksek24s": 2.032,
+   "dusuk24s": 1.888,
+   "hacimUSDT": 4486753,
+   "islem": 26887
+  },
+  {
+   "sembol": "SKYUSDT",
+   "coin": "SKY",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.08864,
+   "fiyatTL": 4.3548832,
+   "degisim24s": 0.74,
+   "yuksek24s": 0.09059,
+   "dusuk24s": 0.08539,
+   "hacimUSDT": 4243760,
+   "islem": 40379
+  },
+  {
+   "sembol": "MEGAUSDT",
+   "coin": "MEGA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.04933,
+   "fiyatTL": 2.4235829,
+   "degisim24s": 7.4,
+   "yuksek24s": 0.05056,
+   "dusuk24s": 0.04506,
+   "hacimUSDT": 4243460,
+   "islem": 85243
+  },
+  {
+   "sembol": "SAGAUSDT",
+   "coin": "SAGA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02265,
+   "fiyatTL": 1.1127945,
+   "degisim24s": -1.91,
+   "yuksek24s": 0.02333,
+   "dusuk24s": 0.02233,
+   "hacimUSDT": 4113095,
+   "islem": 42338
+  },
+  {
+   "sembol": "PAXGUSDT",
+   "coin": "PAXG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4146.72,
+   "fiyatTL": 203728.3536,
+   "degisim24s": -0.11,
+   "yuksek24s": 4155.79,
+   "dusuk24s": 4143.47,
+   "hacimUSDT": 4040752,
+   "islem": 8229
+  },
+  {
+   "sembol": "ALGOUSDT",
+   "coin": "ALGO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1308,
+   "fiyatTL": 6.426204,
+   "degisim24s": 3.48,
+   "yuksek24s": 0.1331,
+   "dusuk24s": 0.1242,
+   "hacimUSDT": 3887724,
+   "islem": 27545
+  },
+  {
+   "sembol": "CRVUSDT",
+   "coin": "CRV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3825,
+   "fiyatTL": 18.792225,
+   "degisim24s": 5.29,
+   "yuksek24s": 0.3853,
+   "dusuk24s": 0.3545,
+   "hacimUSDT": 3881517,
+   "islem": 38918
+  },
+  {
+   "sembol": "JTOUSDT",
+   "coin": "JTO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.5774,
+   "fiyatTL": 28.367662,
+   "degisim24s": 14.59,
+   "yuksek24s": 0.5862,
+   "dusuk24s": 0.5027,
+   "hacimUSDT": 3862544,
+   "islem": 58146
+  },
+  {
+   "sembol": "SEIUSDT",
+   "coin": "SEI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.07099,
+   "fiyatTL": 3.4877387,
+   "degisim24s": 3.6,
+   "yuksek24s": 0.07191,
+   "dusuk24s": 0.06804,
+   "hacimUSDT": 3729179,
+   "islem": 49919
+  },
+  {
+   "sembol": "AIUSDT",
+   "coin": "AI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0205,
+   "fiyatTL": 1.007165,
+   "degisim24s": -11.26,
+   "yuksek24s": 0.0239,
+   "dusuk24s": 0.0197,
+   "hacimUSDT": 3626966,
+   "islem": 28470
+  },
+  {
+   "sembol": "NMRUSDT",
+   "coin": "NMR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 11.32,
+   "fiyatTL": 556.1516,
+   "degisim24s": -4.71,
+   "yuksek24s": 12.63,
+   "dusuk24s": 11.21,
+   "hacimUSDT": 3555362,
+   "islem": 35141
+  },
+  {
+   "sembol": "BMTUSDT",
+   "coin": "BMT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01942,
+   "fiyatTL": 0.9541046,
+   "degisim24s": 4.75,
+   "yuksek24s": 0.02209,
+   "dusuk24s": 0.01802,
+   "hacimUSDT": 3526161,
+   "islem": 93276
+  },
+  {
+   "sembol": "ETHFIUSDT",
+   "coin": "ETHFI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.7195,
+   "fiyatTL": 35.349035,
+   "degisim24s": 4.32,
+   "yuksek24s": 0.72,
+   "dusuk24s": 0.6828,
+   "hacimUSDT": 3296445,
+   "islem": 53213
+  },
+  {
+   "sembol": "MORPHOUSDT",
+   "coin": "MORPHO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.753,
+   "fiyatTL": 135.25489,
+   "degisim24s": 8.43,
+   "yuksek24s": 2.761,
+   "dusuk24s": 2.524,
+   "hacimUSDT": 3209411,
+   "islem": 38037
+  },
+  {
+   "sembol": "AUDIOUSDT",
+   "coin": "AUDIO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01695,
+   "fiyatTL": 0.8327535,
+   "degisim24s": 4.44,
+   "yuksek24s": 0.01885,
+   "dusuk24s": 0.0161,
+   "hacimUSDT": 3195477,
+   "islem": 36133
+  },
+  {
+   "sembol": "POLUSDT",
+   "coin": "POL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.10998,
+   "fiyatTL": 5.4033174,
+   "degisim24s": 4.04,
+   "yuksek24s": 0.11,
+   "dusuk24s": 0.10492,
+   "hacimUSDT": 3131476,
+   "islem": 60060
+  },
+  {
+   "sembol": "EIGENUSDT",
+   "coin": "EIGEN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2614,
+   "fiyatTL": 12.842582,
+   "degisim24s": 9.28,
+   "yuksek24s": 0.2657,
+   "dusuk24s": 0.2373,
+   "hacimUSDT": 3043968,
+   "islem": 31016
+  },
+  {
+   "sembol": "SCRUSDT",
+   "coin": "SCR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02506,
+   "fiyatTL": 1.2311978,
+   "degisim24s": -10.72,
+   "yuksek24s": 0.02944,
+   "dusuk24s": 0.02487,
+   "hacimUSDT": 3015304,
+   "islem": 49779
+  },
+  {
+   "sembol": "APEUSDT",
+   "coin": "APE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1626,
+   "fiyatTL": 7.988538,
+   "degisim24s": -0.61,
+   "yuksek24s": 0.1709,
+   "dusuk24s": 0.1609,
+   "hacimUSDT": 2992499,
+   "islem": 32678
+  },
+  {
+   "sembol": "BONKUSDT",
+   "coin": "BONK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 3.82e-06,
+   "fiyatTL": 0.00018768,
+   "degisim24s": 6.7,
+   "yuksek24s": 3.88e-06,
+   "dusuk24s": 3.54e-06,
+   "hacimUSDT": 2936047,
+   "islem": 20259
+  },
+  {
+   "sembol": "KAITOUSDT",
+   "coin": "KAITO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3554,
+   "fiyatTL": 17.460802,
+   "degisim24s": 10.44,
+   "yuksek24s": 0.3695,
+   "dusuk24s": 0.3191,
+   "hacimUSDT": 2923064,
+   "islem": 28479
+  },
+  {
+   "sembol": "LDOUSDT",
+   "coin": "LDO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.4613,
+   "fiyatTL": 22.663669,
+   "degisim24s": 6.56,
+   "yuksek24s": 0.4709,
+   "dusuk24s": 0.425,
+   "hacimUSDT": 2894152,
+   "islem": 36711
+  },
+  {
+   "sembol": "CAKEUSDT",
+   "coin": "CAKE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.529,
+   "fiyatTL": 124.24977,
+   "degisim24s": 1.85,
+   "yuksek24s": 2.556,
+   "dusuk24s": 2.46,
+   "hacimUSDT": 2880977,
+   "islem": 23781
+  },
+  {
+   "sembol": "WLFIUSDT",
+   "coin": "WLFI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0548,
+   "fiyatTL": 2.692324,
+   "degisim24s": -0.18,
+   "yuksek24s": 0.0555,
+   "dusuk24s": 0.0542,
+   "hacimUSDT": 2646430,
+   "islem": 10083
+  },
+  {
+   "sembol": "STXUSDT",
+   "coin": "STX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3767,
+   "fiyatTL": 18.507271,
+   "degisim24s": 5.25,
+   "yuksek24s": 0.3963,
+   "dusuk24s": 0.3571,
+   "hacimUSDT": 2573484,
+   "islem": 27601
+  },
+  {
+   "sembol": "ETCUSDT",
+   "coin": "ETC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 8.84,
+   "fiyatTL": 434.3092,
+   "degisim24s": 2.2,
+   "yuksek24s": 8.9,
+   "dusuk24s": 8.62,
+   "hacimUSDT": 2556257,
+   "islem": 17029
+  },
+  {
+   "sembol": "IOUSDT",
+   "coin": "IO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1661,
+   "fiyatTL": 8.160493,
+   "degisim24s": 9.49,
+   "yuksek24s": 0.1693,
+   "dusuk24s": 0.1502,
+   "hacimUSDT": 2499415,
+   "islem": 28029
+  },
+  {
+   "sembol": "JUPUSDT",
+   "coin": "JUP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3306,
+   "fiyatTL": 16.242378,
+   "degisim24s": 6.37,
+   "yuksek24s": 0.3346,
+   "dusuk24s": 0.3094,
+   "hacimUSDT": 2426849,
+   "islem": 25778
+  },
+  {
+   "sembol": "ATOMUSDT",
+   "coin": "ATOM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.715,
+   "fiyatTL": 84.25795,
+   "degisim24s": 4.76,
+   "yuksek24s": 1.749,
+   "dusuk24s": 1.621,
+   "hacimUSDT": 2389835,
+   "islem": 16985
+  },
+  {
+   "sembol": "MINAUSDT",
+   "coin": "MINA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1604,
+   "fiyatTL": 7.880452,
+   "degisim24s": 1.46,
+   "yuksek24s": 0.1699,
+   "dusuk24s": 0.1566,
+   "hacimUSDT": 2358524,
+   "islem": 39936
+  },
+  {
+   "sembol": "SHIBUSDT",
+   "coin": "SHIB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 5.77e-06,
+   "fiyatTL": 0.00028348,
+   "degisim24s": 3.04,
+   "yuksek24s": 5.77e-06,
+   "dusuk24s": 5.57e-06,
+   "hacimUSDT": 2357284,
+   "islem": 15457
+  },
+  {
+   "sembol": "NOMUSDT",
+   "coin": "NOM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002339,
+   "fiyatTL": 0.11491507,
+   "degisim24s": -7.11,
+   "yuksek24s": 0.002585,
+   "dusuk24s": 0.002281,
+   "hacimUSDT": 2323760,
+   "islem": 53187
+  },
+  {
+   "sembol": "NILUSDT",
+   "coin": "NIL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.08204,
+   "fiyatTL": 4.0306252,
+   "degisim24s": 2.68,
+   "yuksek24s": 0.086,
+   "dusuk24s": 0.0797,
+   "hacimUSDT": 2242018,
+   "islem": 39803
+  },
+  {
+   "sembol": "ACEUSDT",
+   "coin": "ACE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1824,
+   "fiyatTL": 8.961312,
+   "degisim24s": -1.14,
+   "yuksek24s": 0.1916,
+   "dusuk24s": 0.18,
+   "hacimUSDT": 2240356,
+   "islem": 34344
+  },
+  {
+   "sembol": "ZKUSDT",
+   "coin": "ZK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01301,
+   "fiyatTL": 0.6391813,
+   "degisim24s": 3.58,
+   "yuksek24s": 0.01335,
+   "dusuk24s": 0.01223,
+   "hacimUSDT": 2061306,
+   "islem": 16059
+  },
+  {
+   "sembol": "PARTIUSDT",
+   "coin": "PARTI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.028,
+   "fiyatTL": 1.37564,
+   "degisim24s": 6.46,
+   "yuksek24s": 0.0301,
+   "dusuk24s": 0.0262,
+   "hacimUSDT": 2052024,
+   "islem": 17750
+  },
+  {
+   "sembol": "LPTUSDT",
+   "coin": "LPT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.765,
+   "fiyatTL": 86.71445,
+   "degisim24s": 7.82,
+   "yuksek24s": 1.846,
+   "dusuk24s": 1.631,
+   "hacimUSDT": 2027028,
+   "islem": 25265
+  },
+  {
+   "sembol": "PYTHUSDT",
+   "coin": "PYTH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.07816,
+   "fiyatTL": 3.8400008,
+   "degisim24s": 2.96,
+   "yuksek24s": 0.08187,
+   "dusuk24s": 0.07571,
+   "hacimUSDT": 1985355,
+   "islem": 22798
+  },
+  {
+   "sembol": "PENDLEUSDT",
+   "coin": "PENDLE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.385,
+   "fiyatTL": 117.17505,
+   "degisim24s": 2.05,
+   "yuksek24s": 2.392,
+   "dusuk24s": 2.307,
+   "hacimUSDT": 1938535,
+   "islem": 16561
+  },
+  {
+   "sembol": "SYRUPUSDT",
+   "coin": "SYRUP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2579,
+   "fiyatTL": 12.670627,
+   "degisim24s": 9.93,
+   "yuksek24s": 0.2583,
+   "dusuk24s": 0.2339,
+   "hacimUSDT": 1918928,
+   "islem": 24646
+  },
+  {
+   "sembol": "SPKUSDT",
+   "coin": "SPK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.024811,
+   "fiyatTL": 1.21896443,
+   "degisim24s": -2.71,
+   "yuksek24s": 0.026269,
+   "dusuk24s": 0.024767,
+   "hacimUSDT": 1859332,
+   "islem": 25367
+  },
+  {
+   "sembol": "DODOUSDT",
+   "coin": "DODO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01885,
+   "fiyatTL": 0.9261005,
+   "degisim24s": 2.28,
+   "yuksek24s": 0.01898,
+   "dusuk24s": 0.01823,
+   "hacimUSDT": 1859160,
+   "islem": 4166
+  },
+  {
+   "sembol": "INITUSDT",
+   "coin": "INIT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.11179,
+   "fiyatTL": 5.4922427,
+   "degisim24s": 8.3,
+   "yuksek24s": 0.11416,
+   "dusuk24s": 0.10265,
+   "hacimUSDT": 1788660,
+   "islem": 35955
+  },
+  {
+   "sembol": "API3USDT",
+   "coin": "API3",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2972,
+   "fiyatTL": 14.601436,
+   "degisim24s": 10.2,
+   "yuksek24s": 0.3039,
+   "dusuk24s": 0.2676,
+   "hacimUSDT": 1751596,
+   "islem": 32796
+  },
+  {
+   "sembol": "DYDXUSDT",
+   "coin": "DYDX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.14816,
+   "fiyatTL": 7.2791008,
+   "degisim24s": 1.08,
+   "yuksek24s": 0.15825,
+   "dusuk24s": 0.14363,
+   "hacimUSDT": 1737324,
+   "islem": 19069
+  },
+  {
+   "sembol": "PIXELUSDT",
+   "coin": "PIXEL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00644,
+   "fiyatTL": 0.3163972,
+   "degisim24s": 9.34,
+   "yuksek24s": 0.00657,
+   "dusuk24s": 0.00584,
+   "hacimUSDT": 1690110,
+   "islem": 28188
+  },
+  {
+   "sembol": "ROBOUSDT",
+   "coin": "ROBO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00845,
+   "fiyatTL": 0.4151485,
+   "degisim24s": 4.58,
+   "yuksek24s": 0.00904,
+   "dusuk24s": 0.00798,
+   "hacimUSDT": 1678355,
+   "islem": 10913
+  },
+  {
+   "sembol": "PHAUSDT",
+   "coin": "PHA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0691,
+   "fiyatTL": 3.394883,
+   "degisim24s": -6.75,
+   "yuksek24s": 0.0747,
+   "dusuk24s": 0.068,
+   "hacimUSDT": 1588934,
+   "islem": 21039
+  },
+  {
+   "sembol": "TRBUSDT",
+   "coin": "TRB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 20.75,
+   "fiyatTL": 1019.4475,
+   "degisim24s": 6.57,
+   "yuksek24s": 21.18,
+   "dusuk24s": 19.31,
+   "hacimUSDT": 1539549,
+   "islem": 11680
+  },
+  {
+   "sembol": "WIFUSDT",
+   "coin": "WIF",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2546,
+   "fiyatTL": 12.508498,
+   "degisim24s": 6.3,
+   "yuksek24s": 0.2577,
+   "dusuk24s": 0.2374,
+   "hacimUSDT": 1506514,
+   "islem": 28917
+  },
+  {
+   "sembol": "GIGGLEUSDT",
+   "coin": "GIGGLE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 37.66,
+   "fiyatTL": 1850.2358,
+   "degisim24s": 3.92,
+   "yuksek24s": 38.43,
+   "dusuk24s": 36.11,
+   "hacimUSDT": 1450974,
+   "islem": 16310
+  },
+  {
+   "sembol": "COTIUSDT",
+   "coin": "COTI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01366,
+   "fiyatTL": 0.6711158,
+   "degisim24s": -1.44,
+   "yuksek24s": 0.01401,
+   "dusuk24s": 0.01325,
+   "hacimUSDT": 1429702,
+   "islem": 16675
+  },
+  {
+   "sembol": "CFGUSDT",
+   "coin": "CFG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1508,
+   "fiyatTL": 7.408804,
+   "degisim24s": 5.23,
+   "yuksek24s": 0.1522,
+   "dusuk24s": 0.1421,
+   "hacimUSDT": 1429223,
+   "islem": 11810
+  },
+  {
+   "sembol": "BEAMXUSDT",
+   "coin": "BEAMX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002127,
+   "fiyatTL": 0.10449951,
+   "degisim24s": 2.01,
+   "yuksek24s": 0.002224,
+   "dusuk24s": 0.002075,
+   "hacimUSDT": 1394327,
+   "islem": 18743
+  },
+  {
+   "sembol": "JASMYUSDT",
+   "coin": "JASMY",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00539,
+   "fiyatTL": 0.2648107,
+   "degisim24s": 2.67,
+   "yuksek24s": 0.00556,
+   "dusuk24s": 0.00516,
+   "hacimUSDT": 1360218,
+   "islem": 9265
+  },
+  {
+   "sembol": "PLUMEUSDT",
+   "coin": "PLUME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01799,
+   "fiyatTL": 0.8838487,
+   "degisim24s": 0.9,
+   "yuksek24s": 0.01832,
+   "dusuk24s": 0.01746,
+   "hacimUSDT": 1336881,
+   "islem": 22873
+  },
+  {
+   "sembol": "GMTUSDT",
+   "coin": "GMT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00875,
+   "fiyatTL": 0.4298875,
+   "degisim24s": 2.46,
+   "yuksek24s": 0.00933,
+   "dusuk24s": 0.00838,
+   "hacimUSDT": 1325653,
+   "islem": 25063
+  },
+  {
+   "sembol": "ORCAUSDT",
+   "coin": "ORCA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.807,
+   "fiyatTL": 88.77791,
+   "degisim24s": 6.54,
+   "yuksek24s": 1.807,
+   "dusuk24s": 1.684,
+   "hacimUSDT": 1322924,
+   "islem": 15152
+  },
+  {
+   "sembol": "HUMAUSDT",
+   "coin": "HUMA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03307,
+   "fiyatTL": 1.6247291,
+   "degisim24s": -1.55,
+   "yuksek24s": 0.03399,
+   "dusuk24s": 0.03196,
+   "hacimUSDT": 1311574,
+   "islem": 21370
+  },
+  {
+   "sembol": "MAGICUSDT",
+   "coin": "MAGIC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0572,
+   "fiyatTL": 2.810236,
+   "degisim24s": -1.72,
+   "yuksek24s": 0.0609,
+   "dusuk24s": 0.0561,
+   "hacimUSDT": 1284236,
+   "islem": 13779
+  },
+  {
+   "sembol": "OPGUSDT",
+   "coin": "OPG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1294,
+   "fiyatTL": 6.357422,
+   "degisim24s": -1.07,
+   "yuksek24s": 0.1358,
+   "dusuk24s": 0.1291,
+   "hacimUSDT": 1276932,
+   "islem": 12397
+  },
+  {
+   "sembol": "0GUSDT",
+   "coin": "0G",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2977,
+   "fiyatTL": 14.626001,
+   "degisim24s": 1.67,
+   "yuksek24s": 0.3036,
+   "dusuk24s": 0.2917,
+   "hacimUSDT": 1255312,
+   "islem": 21912
+  },
+  {
+   "sembol": "NEIROUSDT",
+   "coin": "NEIRO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 9.069e-05,
+   "fiyatTL": 0.0044556,
+   "degisim24s": 2.34,
+   "yuksek24s": 9.214e-05,
+   "dusuk24s": 8.8e-05,
+   "hacimUSDT": 1235450,
+   "islem": 31576
+  },
+  {
+   "sembol": "HEMIUSDT",
+   "coin": "HEMI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00606,
+   "fiyatTL": 0.2977278,
+   "degisim24s": -0.98,
+   "yuksek24s": 0.00619,
+   "dusuk24s": 0.00592,
+   "hacimUSDT": 1227279,
+   "islem": 18196
+  },
+  {
+   "sembol": "ORDIUSDT",
+   "coin": "ORDI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.571,
+   "fiyatTL": 224.57323,
+   "degisim24s": 1.4,
+   "yuksek24s": 4.71,
+   "dusuk24s": 4.485,
+   "hacimUSDT": 1186403,
+   "islem": 13935
+  },
+  {
+   "sembol": "MITOUSDT",
+   "coin": "MITO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01603,
+   "fiyatTL": 0.7875539,
+   "degisim24s": 3.49,
+   "yuksek24s": 0.01642,
+   "dusuk24s": 0.01538,
+   "hacimUSDT": 1184515,
+   "islem": 17124
+  },
+  {
+   "sembol": "OPNUSDT",
+   "coin": "OPN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0554,
+   "fiyatTL": 2.721802,
+   "degisim24s": -0.72,
+   "yuksek24s": 0.0588,
+   "dusuk24s": 0.0541,
+   "hacimUSDT": 1167505,
+   "islem": 5916
+  },
+  {
+   "sembol": "CHIPUSDT",
+   "coin": "CHIP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.04404,
+   "fiyatTL": 2.1636852,
+   "degisim24s": 2.59,
+   "yuksek24s": 0.04457,
+   "dusuk24s": 0.04237,
+   "hacimUSDT": 1130599,
+   "islem": 15041
+  },
+  {
+   "sembol": "ONTUSDT",
+   "coin": "ONT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0604,
+   "fiyatTL": 2.967452,
+   "degisim24s": 3.14,
+   "yuksek24s": 0.06203,
+   "dusuk24s": 0.05846,
+   "hacimUSDT": 1094916,
+   "islem": 13455
+  },
+  {
+   "sembol": "COMPUSDT",
+   "coin": "COMP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 25.4,
+   "fiyatTL": 1247.902,
+   "degisim24s": 6.05,
+   "yuksek24s": 25.69,
+   "dusuk24s": 23.67,
+   "hacimUSDT": 1072937,
+   "islem": 7082
+  },
+  {
+   "sembol": "WUSDT",
+   "coin": "W",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01372,
+   "fiyatTL": 0.6740636,
+   "degisim24s": 4.73,
+   "yuksek24s": 0.01417,
+   "dusuk24s": 0.01295,
+   "hacimUSDT": 1057637,
+   "islem": 15504
+  },
+  {
+   "sembol": "METUSDT",
+   "coin": "MET",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2971,
+   "fiyatTL": 14.596523,
+   "degisim24s": 2.98,
+   "yuksek24s": 0.3018,
+   "dusuk24s": 0.2856,
+   "hacimUSDT": 1044911,
+   "islem": 12479
+  },
+  {
+   "sembol": "GUNUSDT",
+   "coin": "GUN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0032,
+   "fiyatTL": 0.157216,
+   "degisim24s": 3.9,
+   "yuksek24s": 0.00329,
+   "dusuk24s": 0.00303,
+   "hacimUSDT": 1018513,
+   "islem": 10702
+  },
+  {
+   "sembol": "GENIUSUSDT",
+   "coin": "GENIUS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3255,
+   "fiyatTL": 15.991815,
+   "degisim24s": 1.85,
+   "yuksek24s": 0.3338,
+   "dusuk24s": 0.3177,
+   "hacimUSDT": 1008022,
+   "islem": 10304
+  },
+  {
+   "sembol": "BIOUSDT",
+   "coin": "BIO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03137,
+   "fiyatTL": 1.5412081,
+   "degisim24s": 5.13,
+   "yuksek24s": 0.03193,
+   "dusuk24s": 0.02973,
+   "hacimUSDT": 1005271,
+   "islem": 12302
+  },
+  {
+   "sembol": "FLOKIUSDT",
+   "coin": "FLOKI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.748e-05,
+   "fiyatTL": 0.00135009,
+   "degisim24s": 2.58,
+   "yuksek24s": 2.781e-05,
+   "dusuk24s": 2.663e-05,
+   "hacimUSDT": 989718,
+   "islem": 9989
+  },
+  {
+   "sembol": "CFXUSDT",
+   "coin": "CFX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.05431,
+   "fiyatTL": 2.6682503,
+   "degisim24s": 4.58,
+   "yuksek24s": 0.05451,
+   "dusuk24s": 0.05157,
+   "hacimUSDT": 977051,
+   "islem": 11640
+  },
+  {
+   "sembol": "VETUSDT",
+   "coin": "VET",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.008687,
+   "fiyatTL": 0.42679231,
+   "degisim24s": 3.33,
+   "yuksek24s": 0.008771,
+   "dusuk24s": 0.008382,
+   "hacimUSDT": 971788,
+   "islem": 16899
+  },
+  {
+   "sembol": "BANKUSDT",
+   "coin": "BANK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0294,
+   "fiyatTL": 1.444422,
+   "degisim24s": 0.0,
+   "yuksek24s": 0.0302,
+   "dusuk24s": 0.029,
+   "hacimUSDT": 967847,
+   "islem": 7520
+  },
+  {
+   "sembol": "MEUSDT",
+   "coin": "ME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0783,
+   "fiyatTL": 3.846879,
+   "degisim24s": 3.63,
+   "yuksek24s": 0.08306,
+   "dusuk24s": 0.07464,
+   "hacimUSDT": 951833,
+   "islem": 18884
+  },
+  {
+   "sembol": "FORMUSDT",
+   "coin": "FORM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2797,
+   "fiyatTL": 13.741661,
+   "degisim24s": 1.01,
+   "yuksek24s": 0.2847,
+   "dusuk24s": 0.2764,
+   "hacimUSDT": 951676,
+   "islem": 18681
+  },
+  {
+   "sembol": "REDUSDT",
+   "coin": "RED",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1818,
+   "fiyatTL": 8.931834,
+   "degisim24s": 10.52,
+   "yuksek24s": 0.1848,
+   "dusuk24s": 0.1612,
+   "hacimUSDT": 915305,
+   "islem": 14522
+  },
+  {
+   "sembol": "BLURUSDT",
+   "coin": "BLUR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02163,
+   "fiyatTL": 1.0626819,
+   "degisim24s": 6.45,
+   "yuksek24s": 0.02267,
+   "dusuk24s": 0.02018,
+   "hacimUSDT": 876126,
+   "islem": 10588
+  },
+  {
+   "sembol": "LUNCUSDT",
+   "coin": "LUNC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 5.26e-05,
+   "fiyatTL": 0.00258424,
+   "degisim24s": 1.8,
+   "yuksek24s": 5.296e-05,
+   "dusuk24s": 5.157e-05,
+   "hacimUSDT": 826795,
+   "islem": 20183
+  },
+  {
+   "sembol": "BBUSDT",
+   "coin": "BB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00955,
+   "fiyatTL": 0.4691915,
+   "degisim24s": 4.03,
+   "yuksek24s": 0.00967,
+   "dusuk24s": 0.00916,
+   "hacimUSDT": 825035,
+   "islem": 14048
+  },
+  {
+   "sembol": "SENTUSDT",
+   "coin": "SENT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02196,
+   "fiyatTL": 1.0788948,
+   "degisim24s": 7.23,
+   "yuksek24s": 0.02267,
+   "dusuk24s": 0.02044,
+   "hacimUSDT": 818184,
+   "islem": 20357
+  },
+  {
+   "sembol": "BERAUSDT",
+   "coin": "BERA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2271,
+   "fiyatTL": 11.157423,
+   "degisim24s": 0.84,
+   "yuksek24s": 0.236,
+   "dusuk24s": 0.2243,
+   "hacimUSDT": 806499,
+   "islem": 12874
+  },
+  {
+   "sembol": "EDUUSDT",
+   "coin": "EDU",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0509,
+   "fiyatTL": 2.500717,
+   "degisim24s": 3.67,
+   "yuksek24s": 0.0538,
+   "dusuk24s": 0.0491,
+   "hacimUSDT": 798360,
+   "islem": 17358
+  },
+  {
+   "sembol": "CELOUSDT",
+   "coin": "CELO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.09991,
+   "fiyatTL": 4.9085783,
+   "degisim24s": 2.54,
+   "yuksek24s": 0.10295,
+   "dusuk24s": 0.09705,
+   "hacimUSDT": 795277,
+   "islem": 18450
+  },
+  {
+   "sembol": "THETAUSDT",
+   "coin": "THETA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2268,
+   "fiyatTL": 11.142684,
+   "degisim24s": 3.99,
+   "yuksek24s": 0.2326,
+   "dusuk24s": 0.215,
+   "hacimUSDT": 791476,
+   "islem": 10511
+  },
+  {
+   "sembol": "KSMUSDT",
+   "coin": "KSM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 5.25,
+   "fiyatTL": 257.9325,
+   "degisim24s": 5.42,
+   "yuksek24s": 5.52,
+   "dusuk24s": 4.96,
+   "hacimUSDT": 785457,
+   "islem": 6874
+  },
+  {
+   "sembol": "GRTUSDT",
+   "coin": "GRT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02809,
+   "fiyatTL": 1.3800617,
+   "degisim24s": 1.12,
+   "yuksek24s": 0.02911,
+   "dusuk24s": 0.02772,
+   "hacimUSDT": 783088,
+   "islem": 10298
+  },
+  {
+   "sembol": "REUSDT",
+   "coin": "RE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.5009,
+   "fiyatTL": 24.609217,
+   "degisim24s": 1.07,
+   "yuksek24s": 0.5091,
+   "dusuk24s": 0.4851,
+   "hacimUSDT": 775082,
+   "islem": 8531
+  },
+  {
+   "sembol": "ARPAUSDT",
+   "coin": "ARPA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01134,
+   "fiyatTL": 0.5571342,
+   "degisim24s": 2.25,
+   "yuksek24s": 0.01183,
+   "dusuk24s": 0.01103,
+   "hacimUSDT": 773607,
+   "islem": 12238
+  },
+  {
+   "sembol": "HEIUSDT",
+   "coin": "HEI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1371,
+   "fiyatTL": 6.735723,
+   "degisim24s": -3.72,
+   "yuksek24s": 0.1442,
+   "dusuk24s": 0.1352,
+   "hacimUSDT": 771322,
+   "islem": 12938
+  },
+  {
+   "sembol": "SNXUSDT",
+   "coin": "SNX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2542,
+   "fiyatTL": 12.488846,
+   "degisim24s": 4.01,
+   "yuksek24s": 0.2574,
+   "dusuk24s": 0.242,
+   "hacimUSDT": 769896,
+   "islem": 10570
+  },
+  {
+   "sembol": "SHELLUSDT",
+   "coin": "SHELL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02426,
+   "fiyatTL": 1.1918938,
+   "degisim24s": -0.33,
+   "yuksek24s": 0.02505,
+   "dusuk24s": 0.02377,
+   "hacimUSDT": 764621,
+   "islem": 10772
+  },
+  {
+   "sembol": "BOMEUSDT",
+   "coin": "BOME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0010112,
+   "fiyatTL": 0.04968026,
+   "degisim24s": -1.05,
+   "yuksek24s": 0.0010272,
+   "dusuk24s": 0.000991,
+   "hacimUSDT": 745206,
+   "islem": 12413
+  },
+  {
+   "sembol": "CUSDT",
+   "coin": "C",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0974,
+   "fiyatTL": 4.785262,
+   "degisim24s": 1.99,
+   "yuksek24s": 0.0999,
+   "dusuk24s": 0.0945,
+   "hacimUSDT": 740744,
+   "islem": 17275
+  },
+  {
+   "sembol": "SUSDT",
+   "coin": "S",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03861,
+   "fiyatTL": 1.8969093,
+   "degisim24s": 2.82,
+   "yuksek24s": 0.03866,
+   "dusuk24s": 0.03728,
+   "hacimUSDT": 737753,
+   "islem": 11465
+  },
+  {
+   "sembol": "MMTUSDT",
+   "coin": "MMT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1915,
+   "fiyatTL": 9.408395,
+   "degisim24s": 6.45,
+   "yuksek24s": 0.1916,
+   "dusuk24s": 0.1767,
+   "hacimUSDT": 702101,
+   "islem": 13106
+  },
+  {
+   "sembol": "CITYUSDT",
+   "coin": "CITY",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.351,
+   "fiyatTL": 17.24463,
+   "degisim24s": -0.85,
+   "yuksek24s": 0.356,
+   "dusuk24s": 0.348,
+   "hacimUSDT": 671039,
+   "islem": 7466
+  },
+  {
+   "sembol": "MANTRAUSDT",
+   "coin": "MANTRA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00453,
+   "fiyatTL": 0.2225589,
+   "degisim24s": 4.38,
+   "yuksek24s": 0.00468,
+   "dusuk24s": 0.00433,
+   "hacimUSDT": 646998,
+   "islem": 5509
+  },
+  {
+   "sembol": "FOGOUSDT",
+   "coin": "FOGO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00529,
+   "fiyatTL": 0.2598977,
+   "degisim24s": 2.72,
+   "yuksek24s": 0.00533,
+   "dusuk24s": 0.00509,
+   "hacimUSDT": 629360,
+   "islem": 13713
+  },
+  {
+   "sembol": "TNSRUSDT",
+   "coin": "TNSR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0393,
+   "fiyatTL": 1.930809,
+   "degisim24s": 3.42,
+   "yuksek24s": 0.0404,
+   "dusuk24s": 0.0379,
+   "hacimUSDT": 619841,
+   "islem": 4826
+  },
+  {
+   "sembol": "XAIUSDT",
+   "coin": "XAI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00961,
+   "fiyatTL": 0.4721393,
+   "degisim24s": 3.56,
+   "yuksek24s": 0.00989,
+   "dusuk24s": 0.00923,
+   "hacimUSDT": 618756,
+   "islem": 10963
+  },
+  {
+   "sembol": "BABYUSDT",
+   "coin": "BABY",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01334,
+   "fiyatTL": 0.6553942,
+   "degisim24s": -0.96,
+   "yuksek24s": 0.01376,
+   "dusuk24s": 0.01323,
+   "hacimUSDT": 609308,
+   "islem": 7338
+  },
+  {
+   "sembol": "FFUSDT",
+   "coin": "FF",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.11582,
+   "fiyatTL": 5.6902366,
+   "degisim24s": -1.1,
+   "yuksek24s": 0.11832,
+   "dusuk24s": 0.11404,
+   "hacimUSDT": 606537,
+   "islem": 11602
+  },
+  {
+   "sembol": "PEOPLEUSDT",
+   "coin": "PEOPLE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00901,
+   "fiyatTL": 0.4426613,
+   "degisim24s": 2.39,
+   "yuksek24s": 0.00912,
+   "dusuk24s": 0.00866,
+   "hacimUSDT": 604005,
+   "islem": 10456
+  },
+  {
+   "sembol": "RAREUSDT",
+   "coin": "RARE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01731,
+   "fiyatTL": 0.8504403,
+   "degisim24s": 2.91,
+   "yuksek24s": 0.01771,
+   "dusuk24s": 0.01679,
+   "hacimUSDT": 594018,
+   "islem": 9349
+  },
+  {
+   "sembol": "TLMUSDT",
+   "coin": "TLM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.001573,
+   "fiyatTL": 0.07728149,
+   "degisim24s": 1.48,
+   "yuksek24s": 0.001646,
+   "dusuk24s": 0.001538,
+   "hacimUSDT": 593235,
+   "islem": 11400
+  },
+  {
+   "sembol": "SLPUSDT",
+   "coin": "SLP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.000695,
+   "fiyatTL": 0.03414535,
+   "degisim24s": 1.91,
+   "yuksek24s": 0.000738,
+   "dusuk24s": 0.000677,
+   "hacimUSDT": 585037,
+   "islem": 5875
+  },
+  {
+   "sembol": "REZUSDT",
+   "coin": "REZ",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00419,
+   "fiyatTL": 0.2058547,
+   "degisim24s": 2.92,
+   "yuksek24s": 0.004237,
+   "dusuk24s": 0.004024,
+   "hacimUSDT": 573786,
+   "islem": 11130
+  },
+  {
+   "sembol": "ENSUSDT",
+   "coin": "ENS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 6.87,
+   "fiyatTL": 337.5231,
+   "degisim24s": 2.84,
+   "yuksek24s": 6.92,
+   "dusuk24s": 6.63,
+   "hacimUSDT": 558317,
+   "islem": 6582
+  },
+  {
+   "sembol": "HOMEUSDT",
+   "coin": "HOME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00561,
+   "fiyatTL": 0.2756193,
+   "degisim24s": -1.75,
+   "yuksek24s": 0.00578,
+   "dusuk24s": 0.00558,
+   "hacimUSDT": 553378,
+   "islem": 5147
+  },
+  {
+   "sembol": "ARKMUSDT",
+   "coin": "ARKM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1326,
+   "fiyatTL": 6.514638,
+   "degisim24s": 2.87,
+   "yuksek24s": 0.1335,
+   "dusuk24s": 0.1275,
+   "hacimUSDT": 553294,
+   "islem": 7338
+  },
+  {
+   "sembol": "FIDAUSDT",
+   "coin": "FIDA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02156,
+   "fiyatTL": 1.0592428,
+   "degisim24s": 4.05,
+   "yuksek24s": 0.02218,
+   "dusuk24s": 0.02063,
+   "hacimUSDT": 550116,
+   "islem": 10576
+  },
+  {
+   "sembol": "PNUTUSDT",
+   "coin": "PNUT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0541,
+   "fiyatTL": 2.657933,
+   "degisim24s": 3.05,
+   "yuksek24s": 0.0543,
+   "dusuk24s": 0.0523,
+   "hacimUSDT": 550111,
+   "islem": 9805
+  },
+  {
+   "sembol": "RONINUSDT",
+   "coin": "RONIN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0658,
+   "fiyatTL": 3.232754,
+   "degisim24s": 2.17,
+   "yuksek24s": 0.0698,
+   "dusuk24s": 0.0642,
+   "hacimUSDT": 548574,
+   "islem": 11016
+  },
+  {
+   "sembol": "IOTAUSDT",
+   "coin": "IOTA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0545,
+   "fiyatTL": 2.677585,
+   "degisim24s": 4.41,
+   "yuksek24s": 0.0547,
+   "dusuk24s": 0.0521,
+   "hacimUSDT": 544435,
+   "islem": 6264
+  },
+  {
+   "sembol": "SUSHIUSDT",
+   "coin": "SUSHI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2569,
+   "fiyatTL": 12.621497,
+   "degisim24s": 2.76,
+   "yuksek24s": 0.2581,
+   "dusuk24s": 0.247,
+   "hacimUSDT": 544089,
+   "islem": 9045
+  },
+  {
+   "sembol": "TOWNSUSDT",
+   "coin": "TOWNS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002198,
+   "fiyatTL": 0.10798774,
+   "degisim24s": 6.18,
+   "yuksek24s": 0.002209,
+   "dusuk24s": 0.002039,
+   "hacimUSDT": 539564,
+   "islem": 13386
+  },
+  {
+   "sembol": "JUVUSDT",
+   "coin": "JUV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.321,
+   "fiyatTL": 15.77073,
+   "degisim24s": -0.62,
+   "yuksek24s": 0.338,
+   "dusuk24s": 0.318,
+   "hacimUSDT": 535371,
+   "islem": 10117
+  },
+  {
+   "sembol": "SOLVUSDT",
+   "coin": "SOLV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00425,
+   "fiyatTL": 0.2088025,
+   "degisim24s": 1.92,
+   "yuksek24s": 0.00431,
+   "dusuk24s": 0.00405,
+   "hacimUSDT": 532918,
+   "islem": 9348
+  },
+  {
+   "sembol": "TSTUSDT",
+   "coin": "TST",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0172,
+   "fiyatTL": 0.845036,
+   "degisim24s": 3.49,
+   "yuksek24s": 0.01753,
+   "dusuk24s": 0.01659,
+   "hacimUSDT": 528089,
+   "islem": 7411
+  },
+  {
+   "sembol": "ALLOUSDT",
+   "coin": "ALLO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2679,
+   "fiyatTL": 13.161927,
+   "degisim24s": -1.11,
+   "yuksek24s": 0.2724,
+   "dusuk24s": 0.2597,
+   "hacimUSDT": 502771,
+   "islem": 9770
+  },
+  {
+   "sembol": "MANTAUSDT",
+   "coin": "MANTA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0694,
+   "fiyatTL": 3.409622,
+   "degisim24s": 3.54,
+   "yuksek24s": 0.06973,
+   "dusuk24s": 0.06665,
+   "hacimUSDT": 499370,
+   "islem": 7868
+  },
+  {
+   "sembol": "ACHUSDT",
+   "coin": "ACH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00627,
+   "fiyatTL": 0.3080451,
+   "degisim24s": 2.96,
+   "yuksek24s": 0.00652,
+   "dusuk24s": 0.00606,
+   "hacimUSDT": 496936,
+   "islem": 10844
+  },
+  {
+   "sembol": "PROVEUSDT",
+   "coin": "PROVE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2153,
+   "fiyatTL": 10.577689,
+   "degisim24s": -0.32,
+   "yuksek24s": 0.2207,
+   "dusuk24s": 0.2142,
+   "hacimUSDT": 495223,
+   "islem": 4157
+  },
+  {
+   "sembol": "GUSDT",
+   "coin": "G",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00476,
+   "fiyatTL": 0.2338588,
+   "degisim24s": 2.15,
+   "yuksek24s": 0.00483,
+   "dusuk24s": 0.00463,
+   "hacimUSDT": 458447,
+   "islem": 4264
+  },
+  {
+   "sembol": "SAHARAUSDT",
+   "coin": "SAHARA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00923,
+   "fiyatTL": 0.4534699,
+   "degisim24s": 2.33,
+   "yuksek24s": 0.00928,
+   "dusuk24s": 0.00898,
+   "hacimUSDT": 454417,
+   "islem": 6380
+  },
+  {
+   "sembol": "MASKUSDT",
+   "coin": "MASK",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.484,
+   "fiyatTL": 23.77892,
+   "degisim24s": 1.9,
+   "yuksek24s": 0.508,
+   "dusuk24s": 0.473,
+   "hacimUSDT": 449387,
+   "islem": 6107
+  },
+  {
+   "sembol": "LAUSDT",
+   "coin": "LA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0666,
+   "fiyatTL": 3.272058,
+   "degisim24s": 0.6,
+   "yuksek24s": 0.0681,
+   "dusuk24s": 0.0659,
+   "hacimUSDT": 421716,
+   "islem": 4663
+  },
+  {
+   "sembol": "LINEAUSDT",
+   "coin": "LINEA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002827,
+   "fiyatTL": 0.13889051,
+   "degisim24s": 3.59,
+   "yuksek24s": 0.002831,
+   "dusuk24s": 0.00271,
+   "hacimUSDT": 418050,
+   "islem": 6827
+  },
+  {
+   "sembol": "CYBERUSDT",
+   "coin": "CYBER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.314,
+   "fiyatTL": 15.42682,
+   "degisim24s": 2.28,
+   "yuksek24s": 0.317,
+   "dusuk24s": 0.306,
+   "hacimUSDT": 413819,
+   "islem": 6471
+  },
+  {
+   "sembol": "RVNUSDT",
+   "coin": "RVN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002321,
+   "fiyatTL": 0.11403073,
+   "degisim24s": 0.91,
+   "yuksek24s": 0.002367,
+   "dusuk24s": 0.002284,
+   "hacimUSDT": 407492,
+   "islem": 6674
+  },
+  {
+   "sembol": "ROSEUSDT",
+   "coin": "ROSE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00849,
+   "fiyatTL": 0.4171137,
+   "degisim24s": 4.94,
+   "yuksek24s": 0.00858,
+   "dusuk24s": 0.00801,
+   "hacimUSDT": 398238,
+   "islem": 9586
+  },
+  {
+   "sembol": "MIRAUSDT",
+   "coin": "MIRA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.05257,
+   "fiyatTL": 2.5827641,
+   "degisim24s": 2.8,
+   "yuksek24s": 0.05364,
+   "dusuk24s": 0.05051,
+   "hacimUSDT": 393019,
+   "islem": 8944
+  },
+  {
+   "sembol": "EGLDUSDT",
+   "coin": "EGLD",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.55,
+   "fiyatTL": 223.5415,
+   "degisim24s": 3.53,
+   "yuksek24s": 4.608,
+   "dusuk24s": 4.346,
+   "hacimUSDT": 381372,
+   "islem": 9331
+  },
+  {
+   "sembol": "METISUSDT",
+   "coin": "METIS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 3.3,
+   "fiyatTL": 162.129,
+   "degisim24s": 3.12,
+   "yuksek24s": 3.39,
+   "dusuk24s": 3.2,
+   "hacimUSDT": 379536,
+   "islem": 4975
+  },
+  {
+   "sembol": "SOMIUSDT",
+   "coin": "SOMI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2071,
+   "fiyatTL": 10.174823,
+   "degisim24s": 4.44,
+   "yuksek24s": 0.2113,
+   "dusuk24s": 0.1975,
+   "hacimUSDT": 376014,
+   "islem": 6037
+  },
+  {
+   "sembol": "TWTUSDT",
+   "coin": "TWT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.5781,
+   "fiyatTL": 28.402053,
+   "degisim24s": 2.23,
+   "yuksek24s": 0.5816,
+   "dusuk24s": 0.5601,
+   "hacimUSDT": 375231,
+   "islem": 5042
+  },
+  {
+   "sembol": "TURBOUSDT",
+   "coin": "TURBO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.001047,
+   "fiyatTL": 0.05143911,
+   "degisim24s": 2.25,
+   "yuksek24s": 0.001056,
+   "dusuk24s": 0.001007,
+   "hacimUSDT": 375178,
+   "islem": 9916
+  },
+  {
+   "sembol": "SAPIENUSDT",
+   "coin": "SAPIEN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0752,
+   "fiyatTL": 3.694576,
+   "degisim24s": 2.31,
+   "yuksek24s": 0.0761,
+   "dusuk24s": 0.0733,
+   "hacimUSDT": 372491,
+   "islem": 7078
+  },
+  {
+   "sembol": "DYMUSDT",
+   "coin": "DYM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01927,
+   "fiyatTL": 0.9467351,
+   "degisim24s": 2.61,
+   "yuksek24s": 0.01935,
+   "dusuk24s": 0.01852,
+   "hacimUSDT": 370136,
+   "islem": 7088
+  },
+  {
+   "sembol": "LUNAUSDT",
+   "coin": "LUNA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0508,
+   "fiyatTL": 2.495804,
+   "degisim24s": 1.2,
+   "yuksek24s": 0.0516,
+   "dusuk24s": 0.05,
+   "hacimUSDT": 366201,
+   "islem": 3611
+  },
+  {
+   "sembol": "NEOUSDT",
+   "coin": "NEO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.524,
+   "fiyatTL": 124.00412,
+   "degisim24s": 0.96,
+   "yuksek24s": 2.565,
+   "dusuk24s": 2.476,
+   "hacimUSDT": 361583,
+   "islem": 4955
+  },
+  {
+   "sembol": "AVNTUSDT",
+   "coin": "AVNT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1275,
+   "fiyatTL": 6.264075,
+   "degisim24s": 2.16,
+   "yuksek24s": 0.1305,
+   "dusuk24s": 0.1241,
+   "hacimUSDT": 361491,
+   "islem": 7986
+  },
+  {
+   "sembol": "ALTUSDT",
+   "coin": "ALT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00793,
+   "fiyatTL": 0.3896009,
+   "degisim24s": 4.07,
+   "yuksek24s": 0.008,
+   "dusuk24s": 0.00756,
+   "hacimUSDT": 360700,
+   "islem": 6591
+  },
+  {
+   "sembol": "ENSOUSDT",
+   "coin": "ENSO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.964,
+   "fiyatTL": 47.36132,
+   "degisim24s": -0.62,
+   "yuksek24s": 0.98,
+   "dusuk24s": 0.94,
+   "hacimUSDT": 359128,
+   "islem": 7205
+  },
+  {
+   "sembol": "HMSTRUSDT",
+   "coin": "HMSTR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0001711,
+   "fiyatTL": 0.00840614,
+   "degisim24s": 1.54,
+   "yuksek24s": 0.000174,
+   "dusuk24s": 0.0001674,
+   "hacimUSDT": 355963,
+   "islem": 9804
+  },
+  {
+   "sembol": "AIGENSYNUSDT",
+   "coin": "AIGENSYN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0205,
+   "fiyatTL": 1.007165,
+   "degisim24s": 2.45,
+   "yuksek24s": 0.02068,
+   "dusuk24s": 0.01995,
+   "hacimUSDT": 352886,
+   "islem": 6594
+  },
+  {
+   "sembol": "RADUSDT",
+   "coin": "RAD",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.26,
+   "fiyatTL": 12.7738,
+   "degisim24s": 2.77,
+   "yuksek24s": 0.264,
+   "dusuk24s": 0.251,
+   "hacimUSDT": 352417,
+   "islem": 3081
+  },
+  {
+   "sembol": "PORTALUSDT",
+   "coin": "PORTAL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01785,
+   "fiyatTL": 0.8769705,
+   "degisim24s": 1.42,
+   "yuksek24s": 0.01841,
+   "dusuk24s": 0.01754,
+   "hacimUSDT": 350549,
+   "islem": 6318
+  },
+  {
+   "sembol": "EDENUSDT",
+   "coin": "EDEN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.05705,
+   "fiyatTL": 2.8028665,
+   "degisim24s": 0.99,
+   "yuksek24s": 0.05782,
+   "dusuk24s": 0.05535,
+   "hacimUSDT": 345089,
+   "islem": 4494
+  },
+  {
+   "sembol": "AMPUSDT",
+   "coin": "AMP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.000631,
+   "fiyatTL": 0.03100103,
+   "degisim24s": 1.77,
+   "yuksek24s": 0.00064,
+   "dusuk24s": 0.000615,
+   "hacimUSDT": 343592,
+   "islem": 4250
+  },
+  {
+   "sembol": "ANKRUSDT",
+   "coin": "ANKR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0049,
+   "fiyatTL": 0.240737,
+   "degisim24s": 1.03,
+   "yuksek24s": 0.00503,
+   "dusuk24s": 0.00482,
+   "hacimUSDT": 336084,
+   "islem": 6946
+  },
+  {
+   "sembol": "POLYXUSDT",
+   "coin": "POLYX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0426,
+   "fiyatTL": 2.092938,
+   "degisim24s": 2.4,
+   "yuksek24s": 0.043,
+   "dusuk24s": 0.0414,
+   "hacimUSDT": 334792,
+   "islem": 7836
+  },
+  {
+   "sembol": "ESPUSDT",
+   "coin": "ESP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.10071,
+   "fiyatTL": 4.9478823,
+   "degisim24s": -2.56,
+   "yuksek24s": 0.10476,
+   "dusuk24s": 0.10013,
+   "hacimUSDT": 334307,
+   "islem": 6864
+  },
+  {
+   "sembol": "ZBTUSDT",
+   "coin": "ZBT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0862,
+   "fiyatTL": 4.235006,
+   "degisim24s": 2.25,
+   "yuksek24s": 0.0876,
+   "dusuk24s": 0.0839,
+   "hacimUSDT": 330744,
+   "islem": 7457
+  },
+  {
+   "sembol": "EULUSDT",
+   "coin": "EUL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.417,
+   "fiyatTL": 69.61721,
+   "degisim24s": 6.22,
+   "yuksek24s": 1.43,
+   "dusuk24s": 1.318,
+   "hacimUSDT": 326201,
+   "islem": 4746
+  },
+  {
+   "sembol": "SIGNUSDT",
+   "coin": "SIGN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01248,
+   "fiyatTL": 0.6131424,
+   "degisim24s": -1.03,
+   "yuksek24s": 0.01285,
+   "dusuk24s": 0.01227,
+   "hacimUSDT": 325797,
+   "islem": 11820
+  },
+  {
+   "sembol": "SOPHUSDT",
+   "coin": "SOPH",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00375,
+   "fiyatTL": 0.1842375,
+   "degisim24s": 1.08,
+   "yuksek24s": 0.00387,
+   "dusuk24s": 0.00368,
+   "hacimUSDT": 325017,
+   "islem": 4082
+  },
+  {
+   "sembol": "SKLUSDT",
+   "coin": "SKL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00464,
+   "fiyatTL": 0.2279632,
+   "degisim24s": 3.11,
+   "yuksek24s": 0.00469,
+   "dusuk24s": 0.00444,
+   "hacimUSDT": 303925,
+   "islem": 5549
+  },
+  {
+   "sembol": "XTZUSDT",
+   "coin": "XTZ",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.3159,
+   "fiyatTL": 15.520167,
+   "degisim24s": 1.94,
+   "yuksek24s": 0.3208,
+   "dusuk24s": 0.308,
+   "hacimUSDT": 299041,
+   "islem": 3657
+  },
+  {
+   "sembol": "GPSUSDT",
+   "coin": "GPS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01033,
+   "fiyatTL": 0.5075129,
+   "degisim24s": -0.67,
+   "yuksek24s": 0.0106,
+   "dusuk24s": 0.01027,
+   "hacimUSDT": 294460,
+   "islem": 5363
+  },
+  {
+   "sembol": "LUMIAUSDT",
+   "coin": "LUMIA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0852,
+   "fiyatTL": 4.185876,
+   "degisim24s": 2.53,
+   "yuksek24s": 0.0858,
+   "dusuk24s": 0.082,
+   "hacimUSDT": 290426,
+   "islem": 7306
+  },
+  {
+   "sembol": "RSRUSDT",
+   "coin": "RSR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.001685,
+   "fiyatTL": 0.08278405,
+   "degisim24s": 2.25,
+   "yuksek24s": 0.001703,
+   "dusuk24s": 0.001636,
+   "hacimUSDT": 289448,
+   "islem": 4262
+  },
+  {
+   "sembol": "STOUSDT",
+   "coin": "STO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0409,
+   "fiyatTL": 2.009417,
+   "degisim24s": 0.74,
+   "yuksek24s": 0.0423,
+   "dusuk24s": 0.0406,
+   "hacimUSDT": 287747,
+   "islem": 3704
+  },
+  {
+   "sembol": "AIXBTUSDT",
+   "coin": "AIXBT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02281,
+   "fiyatTL": 1.1206553,
+   "degisim24s": 4.44,
+   "yuksek24s": 0.02297,
+   "dusuk24s": 0.02175,
+   "hacimUSDT": 286591,
+   "islem": 7718
+  },
+  {
+   "sembol": "WCTUSDT",
+   "coin": "WCT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.04288,
+   "fiyatTL": 2.1066944,
+   "degisim24s": 5.2,
+   "yuksek24s": 0.0433,
+   "dusuk24s": 0.0406,
+   "hacimUSDT": 284732,
+   "islem": 6302
+  },
+  {
+   "sembol": "SUNUSDT",
+   "coin": "SUN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01717,
+   "fiyatTL": 0.8435621,
+   "degisim24s": 0.76,
+   "yuksek24s": 0.01721,
+   "dusuk24s": 0.017,
+   "hacimUSDT": 284442,
+   "islem": 3398
+  },
+  {
+   "sembol": "ACTUSDT",
+   "coin": "ACT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01064,
+   "fiyatTL": 0.5227432,
+   "degisim24s": 0.47,
+   "yuksek24s": 0.01092,
+   "dusuk24s": 0.01052,
+   "hacimUSDT": 282605,
+   "islem": 8526
+  },
+  {
+   "sembol": "TURTLEUSDT",
+   "coin": "TURTLE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0438,
+   "fiyatTL": 2.151894,
+   "degisim24s": 4.29,
+   "yuksek24s": 0.0447,
+   "dusuk24s": 0.0418,
+   "hacimUSDT": 278009,
+   "islem": 4132
+  },
+  {
+   "sembol": "KATUSDT",
+   "coin": "KAT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00477,
+   "fiyatTL": 0.2343501,
+   "degisim24s": 1.92,
+   "yuksek24s": 0.00483,
+   "dusuk24s": 0.00467,
+   "hacimUSDT": 276981,
+   "islem": 1749
+  },
+  {
+   "sembol": "IDUSDT",
+   "coin": "ID",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0368,
+   "fiyatTL": 1.807984,
+   "degisim24s": 2.22,
+   "yuksek24s": 0.0378,
+   "dusuk24s": 0.0359,
+   "hacimUSDT": 275689,
+   "islem": 8993
+  },
+  {
+   "sembol": "CKBUSDT",
+   "coin": "CKB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.001298,
+   "fiyatTL": 0.06377074,
+   "degisim24s": 2.61,
+   "yuksek24s": 0.001327,
+   "dusuk24s": 0.001261,
+   "hacimUSDT": 274738,
+   "islem": 3863
+  },
+  {
+   "sembol": "CETUSUSDT",
+   "coin": "CETUS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02774,
+   "fiyatTL": 1.3628662,
+   "degisim24s": 2.82,
+   "yuksek24s": 0.02839,
+   "dusuk24s": 0.02681,
+   "hacimUSDT": 273464,
+   "islem": 5302
+  },
+  {
+   "sembol": "NOTUSDT",
+   "coin": "NOT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.000503,
+   "fiyatTL": 0.02471239,
+   "degisim24s": 2.24,
+   "yuksek24s": 0.00052,
+   "dusuk24s": 0.000487,
+   "hacimUSDT": 271248,
+   "islem": 6617
+  },
+  {
+   "sembol": "AXLUSDT",
+   "coin": "AXL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0548,
+   "fiyatTL": 2.692324,
+   "degisim24s": 6.82,
+   "yuksek24s": 0.055,
+   "dusuk24s": 0.0508,
+   "hacimUSDT": 271230,
+   "islem": 2411
+  },
+  {
+   "sembol": "TREEUSDT",
+   "coin": "TREE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0462,
+   "fiyatTL": 2.269806,
+   "degisim24s": 1.99,
+   "yuksek24s": 0.0469,
+   "dusuk24s": 0.0448,
+   "hacimUSDT": 270687,
+   "islem": 3952
+  },
+  {
+   "sembol": "LAYERUSDT",
+   "coin": "LAYER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0779,
+   "fiyatTL": 3.827227,
+   "degisim24s": 4.0,
+   "yuksek24s": 0.0782,
+   "dusuk24s": 0.0744,
+   "hacimUSDT": 268956,
+   "islem": 6757
+  },
+  {
+   "sembol": "WALUSDT",
+   "coin": "WAL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03501,
+   "fiyatTL": 1.7200413,
+   "degisim24s": 5.01,
+   "yuksek24s": 0.03531,
+   "dusuk24s": 0.03315,
+   "hacimUSDT": 264459,
+   "islem": 6880
+  },
+  {
+   "sembol": "AUSDT",
+   "coin": "A",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0953,
+   "fiyatTL": 4.682089,
+   "degisim24s": 3.14,
+   "yuksek24s": 0.0963,
+   "dusuk24s": 0.0923,
+   "hacimUSDT": 264247,
+   "islem": 3947
+  },
+  {
+   "sembol": "XVGUSDT",
+   "coin": "XVG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.003219,
+   "fiyatTL": 0.15814947,
+   "degisim24s": 6.48,
+   "yuksek24s": 0.003244,
+   "dusuk24s": 0.003015,
+   "hacimUSDT": 263484,
+   "islem": 3834
+  },
+  {
+   "sembol": "1MBABYDOGEUSDT",
+   "coin": "1MBABYDOGE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0004131,
+   "fiyatTL": 0.0202956,
+   "degisim24s": 2.92,
+   "yuksek24s": 0.0004168,
+   "dusuk24s": 0.0003989,
+   "hacimUSDT": 262371,
+   "islem": 3715
+  },
+  {
+   "sembol": "ZKCUSDT",
+   "coin": "ZKC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0418,
+   "fiyatTL": 2.053634,
+   "degisim24s": 1.46,
+   "yuksek24s": 0.0425,
+   "dusuk24s": 0.0408,
+   "hacimUSDT": 261700,
+   "islem": 4715
+  },
+  {
+   "sembol": "NEWTUSDT",
+   "coin": "NEWT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.05044,
+   "fiyatTL": 2.4781172,
+   "degisim24s": 4.71,
+   "yuksek24s": 0.05085,
+   "dusuk24s": 0.04798,
+   "hacimUSDT": 260781,
+   "islem": 7376
+  },
+  {
+   "sembol": "PSGUSDT",
+   "coin": "PSG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.463,
+   "fiyatTL": 22.74719,
+   "degisim24s": 0.87,
+   "yuksek24s": 0.466,
+   "dusuk24s": 0.455,
+   "hacimUSDT": 257579,
+   "islem": 4092
+  },
+  {
+   "sembol": "HOLOUSDT",
+   "coin": "HOLO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0658,
+   "fiyatTL": 3.232754,
+   "degisim24s": 2.17,
+   "yuksek24s": 0.0665,
+   "dusuk24s": 0.0641,
+   "hacimUSDT": 256402,
+   "islem": 2379
+  },
+  {
+   "sembol": "AEVOUSDT",
+   "coin": "AEVO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02716,
+   "fiyatTL": 1.3343708,
+   "degisim24s": 7.01,
+   "yuksek24s": 0.02739,
+   "dusuk24s": 0.02529,
+   "hacimUSDT": 256394,
+   "islem": 8086
+  },
+  {
+   "sembol": "1000SATSUSDT",
+   "coin": "1000SATS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.25e-05,
+   "fiyatTL": 0.00061413,
+   "degisim24s": 3.39,
+   "yuksek24s": 1.266e-05,
+   "dusuk24s": 1.2e-05,
+   "hacimUSDT": 253476,
+   "islem": 3580
+  },
+  {
+   "sembol": "ALPINEUSDT",
+   "coin": "ALPINE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.355,
+   "fiyatTL": 17.44115,
+   "degisim24s": 2.9,
+   "yuksek24s": 0.359,
+   "dusuk24s": 0.345,
+   "hacimUSDT": 242512,
+   "islem": 4576
+  },
+  {
+   "sembol": "ATMUSDT",
+   "coin": "ATM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.04,
+   "fiyatTL": 51.0952,
+   "degisim24s": -0.48,
+   "yuksek24s": 1.059,
+   "dusuk24s": 1.016,
+   "hacimUSDT": 241075,
+   "islem": 5183
+  },
+  {
+   "sembol": "1000CATUSDT",
+   "coin": "1000CAT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.002249,
+   "fiyatTL": 0.11049337,
+   "degisim24s": 2.46,
+   "yuksek24s": 0.002273,
+   "dusuk24s": 0.002182,
+   "hacimUSDT": 240755,
+   "islem": 3957
+  },
+  {
+   "sembol": "OGUSDT",
+   "coin": "OG",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 2.826,
+   "fiyatTL": 138.84138,
+   "degisim24s": 1.47,
+   "yuksek24s": 2.848,
+   "dusuk24s": 2.779,
+   "hacimUSDT": 230620,
+   "islem": 2992
+  },
+  {
+   "sembol": "USTCUSDT",
+   "coin": "USTC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00579,
+   "fiyatTL": 0.2844627,
+   "degisim24s": 0.52,
+   "yuksek24s": 0.00588,
+   "dusuk24s": 0.0057,
+   "hacimUSDT": 229075,
+   "islem": 4120
+  },
+  {
+   "sembol": "CATIUSDT",
+   "coin": "CATI",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.06352,
+   "fiyatTL": 3.1207376,
+   "degisim24s": 0.87,
+   "yuksek24s": 0.06453,
+   "dusuk24s": 0.06225,
+   "hacimUSDT": 226014,
+   "islem": 7455
+  },
+  {
+   "sembol": "BELUSDT",
+   "coin": "BEL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1266,
+   "fiyatTL": 6.219858,
+   "degisim24s": 2.02,
+   "yuksek24s": 0.1283,
+   "dusuk24s": 0.1232,
+   "hacimUSDT": 225121,
+   "islem": 4903
+  },
+  {
+   "sembol": "USUALUSDT",
+   "coin": "USUAL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01294,
+   "fiyatTL": 0.6357422,
+   "degisim24s": 3.77,
+   "yuksek24s": 0.013,
+   "dusuk24s": 0.01242,
+   "hacimUSDT": 223927,
+   "islem": 7458
+  },
+  {
+   "sembol": "YBUSDT",
+   "coin": "YB",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0891,
+   "fiyatTL": 4.377483,
+   "degisim24s": 3.85,
+   "yuksek24s": 0.0897,
+   "dusuk24s": 0.0843,
+   "hacimUSDT": 223166,
+   "islem": 3260
+  },
+  {
+   "sembol": "ACMUSDT",
+   "coin": "ACM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.284,
+   "fiyatTL": 13.95292,
+   "degisim24s": 0.71,
+   "yuksek24s": 0.285,
+   "dusuk24s": 0.277,
+   "hacimUSDT": 222767,
+   "islem": 3734
+  },
+  {
+   "sembol": "HYPERUSDT",
+   "coin": "HYPER",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0711,
+   "fiyatTL": 3.493143,
+   "degisim24s": 1.72,
+   "yuksek24s": 0.072,
+   "dusuk24s": 0.0696,
+   "hacimUSDT": 222430,
+   "islem": 4191
+  },
+  {
+   "sembol": "UMAUSDT",
+   "coin": "UMA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.401,
+   "fiyatTL": 19.70113,
+   "degisim24s": 1.01,
+   "yuksek24s": 0.405,
+   "dusuk24s": 0.394,
+   "hacimUSDT": 220630,
+   "islem": 3180
+  },
+  {
+   "sembol": "KERNELUSDT",
+   "coin": "KERNEL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0542,
+   "fiyatTL": 2.662846,
+   "degisim24s": 4.23,
+   "yuksek24s": 0.0548,
+   "dusuk24s": 0.0519,
+   "hacimUSDT": 210153,
+   "islem": 3649
+  },
+  {
+   "sembol": "MAVUSDT",
+   "coin": "MAV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01131,
+   "fiyatTL": 0.5556603,
+   "degisim24s": -0.79,
+   "yuksek24s": 0.0119,
+   "dusuk24s": 0.01128,
+   "hacimUSDT": 208977,
+   "islem": 3590
+  },
+  {
+   "sembol": "AUCTIONUSDT",
+   "coin": "AUCTION",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 3.741,
+   "fiyatTL": 183.79533,
+   "degisim24s": 2.35,
+   "yuksek24s": 3.823,
+   "dusuk24s": 3.631,
+   "hacimUSDT": 207154,
+   "islem": 3794
+  },
+  {
+   "sembol": "COWUSDT",
+   "coin": "COW",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1629,
+   "fiyatTL": 8.003277,
+   "degisim24s": 4.49,
+   "yuksek24s": 0.1635,
+   "dusuk24s": 0.1548,
+   "hacimUSDT": 199084,
+   "islem": 1875
+  },
+  {
+   "sembol": "BARDUSDT",
+   "coin": "BARD",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.1358,
+   "fiyatTL": 6.671854,
+   "degisim24s": 1.8,
+   "yuksek24s": 0.1369,
+   "dusuk24s": 0.1326,
+   "hacimUSDT": 196070,
+   "islem": 2789
+  },
+  {
+   "sembol": "ERAUSDT",
+   "coin": "ERA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0651,
+   "fiyatTL": 3.198363,
+   "degisim24s": 0.77,
+   "yuksek24s": 0.0658,
+   "dusuk24s": 0.064,
+   "hacimUSDT": 194893,
+   "islem": 6110
+  },
+  {
+   "sembol": "VANAUSDT",
+   "coin": "VANA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.075,
+   "fiyatTL": 52.81475,
+   "degisim24s": 1.61,
+   "yuksek24s": 1.112,
+   "dusuk24s": 1.051,
+   "hacimUSDT": 193334,
+   "islem": 1981
+  },
+  {
+   "sembol": "XECUSDT",
+   "coin": "XEC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 8.07e-06,
+   "fiyatTL": 0.00039648,
+   "degisim24s": 2.93,
+   "yuksek24s": 8.2e-06,
+   "dusuk24s": 7.79e-06,
+   "hacimUSDT": 191420,
+   "islem": 3062
+  },
+  {
+   "sembol": "OGNUSDT",
+   "coin": "OGN",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.02071,
+   "fiyatTL": 1.0174823,
+   "degisim24s": 1.47,
+   "yuksek24s": 0.02123,
+   "dusuk24s": 0.0203,
+   "hacimUSDT": 188583,
+   "islem": 4150
+  },
+  {
+   "sembol": "ZILUSDT",
+   "coin": "ZIL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.003485,
+   "fiyatTL": 0.17121805,
+   "degisim24s": 1.87,
+   "yuksek24s": 0.003561,
+   "dusuk24s": 0.0034,
+   "hacimUSDT": 182390,
+   "islem": 3588
+  },
+  {
+   "sembol": "DOGSUSDT",
+   "coin": "DOGS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.768e-05,
+   "fiyatTL": 0.00234252,
+   "degisim24s": 2.52,
+   "yuksek24s": 4.83e-05,
+   "dusuk24s": 4.637e-05,
+   "hacimUSDT": 181837,
+   "islem": 17832
+  },
+  {
+   "sembol": "THEUSDT",
+   "coin": "THE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0737,
+   "fiyatTL": 3.620881,
+   "degisim24s": 3.66,
+   "yuksek24s": 0.0741,
+   "dusuk24s": 0.0709,
+   "hacimUSDT": 181481,
+   "islem": 1690
+  },
+  {
+   "sembol": "SXTUSDT",
+   "coin": "SXT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00951,
+   "fiyatTL": 0.4672263,
+   "degisim24s": 3.6,
+   "yuksek24s": 0.00952,
+   "dusuk24s": 0.00904,
+   "hacimUSDT": 181043,
+   "islem": 5019
+  },
+  {
+   "sembol": "SPELLUSDT",
+   "coin": "SPELL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 9.71e-05,
+   "fiyatTL": 0.00477052,
+   "degisim24s": 0.83,
+   "yuksek24s": 0.0001,
+   "dusuk24s": 9.56e-05,
+   "hacimUSDT": 179726,
+   "islem": 3623
+  },
+  {
+   "sembol": "GASUSDT",
+   "coin": "GAS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 1.419,
+   "fiyatTL": 69.71547,
+   "degisim24s": 1.07,
+   "yuksek24s": 1.442,
+   "dusuk24s": 1.397,
+   "hacimUSDT": 173035,
+   "islem": 1768
+  },
+  {
+   "sembol": "LISTAUSDT",
+   "coin": "LISTA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.086,
+   "fiyatTL": 4.22518,
+   "degisim24s": 3.12,
+   "yuksek24s": 0.0864,
+   "dusuk24s": 0.0814,
+   "hacimUSDT": 163670,
+   "islem": 4502
+  },
+  {
+   "sembol": "DOLOUSDT",
+   "coin": "DOLO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.03061,
+   "fiyatTL": 1.5038693,
+   "degisim24s": 2.68,
+   "yuksek24s": 0.03075,
+   "dusuk24s": 0.02942,
+   "hacimUSDT": 159583,
+   "islem": 5332
+  },
+  {
+   "sembol": "ZKPUSDT",
+   "coin": "ZKP",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0489,
+   "fiyatTL": 2.402457,
+   "degisim24s": 0.62,
+   "yuksek24s": 0.0497,
+   "dusuk24s": 0.0481,
+   "hacimUSDT": 157978,
+   "islem": 2723
+  },
+  {
+   "sembol": "PORTOUSDT",
+   "coin": "PORTO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.457,
+   "fiyatTL": 22.45241,
+   "degisim24s": 0.44,
+   "yuksek24s": 0.457,
+   "dusuk24s": 0.45,
+   "hacimUSDT": 154933,
+   "islem": 3226
+  },
+  {
+   "sembol": "HAEDALUSDT",
+   "coin": "HAEDAL",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01923,
+   "fiyatTL": 0.9447699,
+   "degisim24s": 1.05,
+   "yuksek24s": 0.01955,
+   "dusuk24s": 0.01892,
+   "hacimUSDT": 150839,
+   "islem": 3904
+  },
+  {
+   "sembol": "BARUSDT",
+   "coin": "BAR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.283,
+   "fiyatTL": 13.90379,
+   "degisim24s": 1.43,
+   "yuksek24s": 0.283,
+   "dusuk24s": 0.277,
+   "hacimUSDT": 143798,
+   "islem": 1638
+  },
+  {
+   "sembol": "LAZIOUSDT",
+   "coin": "LAZIO",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.386,
+   "fiyatTL": 18.96418,
+   "degisim24s": 1.05,
+   "yuksek24s": 0.392,
+   "dusuk24s": 0.378,
+   "hacimUSDT": 138925,
+   "islem": 3057
+  },
+  {
+   "sembol": "SANTOSUSDT",
+   "coin": "SANTOS",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.515,
+   "fiyatTL": 25.30195,
+   "degisim24s": 3.0,
+   "yuksek24s": 0.519,
+   "dusuk24s": 0.497,
+   "hacimUSDT": 135324,
+   "islem": 3575
+  },
+  {
+   "sembol": "STRAXUSDT",
+   "coin": "STRAX",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.01149,
+   "fiyatTL": 0.5645037,
+   "degisim24s": 0.17,
+   "yuksek24s": 0.0117,
+   "dusuk24s": 0.01129,
+   "hacimUSDT": 135069,
+   "islem": 3507
+  },
+  {
+   "sembol": "ANIMEUSDT",
+   "coin": "ANIME",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00335,
+   "fiyatTL": 0.1645855,
+   "degisim24s": 3.08,
+   "yuksek24s": 0.00342,
+   "dusuk24s": 0.00324,
+   "hacimUSDT": 131001,
+   "islem": 2788
+  },
+  {
+   "sembol": "BANANAUSDT",
+   "coin": "BANANA",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 4.005,
+   "fiyatTL": 196.76565,
+   "degisim24s": 1.7,
+   "yuksek24s": 4.038,
+   "dusuk24s": 3.915,
+   "hacimUSDT": 129269,
+   "islem": 3771
+  },
+  {
+   "sembol": "HOTUSDT",
+   "coin": "HOT",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.00045,
+   "fiyatTL": 0.0221085,
+   "degisim24s": 2.51,
+   "yuksek24s": 0.000454,
+   "dusuk24s": 0.000435,
+   "hacimUSDT": 122661,
+   "islem": 2109
+  },
+  {
+   "sembol": "NXPCUSDT",
+   "coin": "NXPC",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.2352,
+   "fiyatTL": 11.555376,
+   "degisim24s": 2.08,
+   "yuksek24s": 0.2397,
+   "dusuk24s": 0.2287,
+   "hacimUSDT": 116547,
+   "islem": 2808
+  },
+  {
+   "sembol": "FUSDT",
+   "coin": "F",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.003458,
+   "fiyatTL": 0.16989154,
+   "degisim24s": 1.71,
+   "yuksek24s": 0.003519,
+   "dusuk24s": 0.003396,
+   "hacimUSDT": 113611,
+   "islem": 2009
+  },
+  {
+   "sembol": "QTUMUSDT",
+   "coin": "QTUM",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.984,
+   "fiyatTL": 48.34392,
+   "degisim24s": 0.92,
+   "yuksek24s": 1.006,
+   "dusuk24s": 0.966,
+   "hacimUSDT": 107735,
+   "islem": 1836
+  },
+  {
+   "sembol": "HIVEUSDT",
+   "coin": "HIVE",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0563,
+   "fiyatTL": 2.766019,
+   "degisim24s": 1.44,
+   "yuksek24s": 0.0568,
+   "dusuk24s": 0.0552,
+   "hacimUSDT": 94438,
+   "islem": 1411
+  },
+  {
+   "sembol": "BREVUSDT",
+   "coin": "BREV",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.0851,
+   "fiyatTL": 4.180963,
+   "degisim24s": 1.92,
+   "yuksek24s": 0.0866,
+   "dusuk24s": 0.0831,
+   "hacimUSDT": 94348,
+   "islem": 2212
+  },
+  {
+   "sembol": "ASRUSDT",
+   "coin": "ASR",
+   "tr_pariteler": [
+    "TRY"
+   ],
+   "fiyat": 0.862,
+   "fiyatTL": 42.35006,
+   "degisim24s": 0.94,
+   "yuksek24s": 0.867,
+   "dusuk24s": 0.85,
+   "hacimUSDT": 68189,
+   "islem": 2136
+  }
+ ]
+}
